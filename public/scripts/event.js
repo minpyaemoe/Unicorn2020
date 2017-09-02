@@ -1,9 +1,11 @@
 
-console.log("fkfkfkfkf");
 
 $(document)
   .ready(function() {
     // fix main menu to page on passing
+
+    console.log("fkfkfkfkf");
+
     $('.main.menu').visibility({
       type: 'fixed',
     });
