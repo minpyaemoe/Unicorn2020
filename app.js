@@ -16,6 +16,4 @@ app.get("/", function(req, res){
 //     console.log('Unicon2018 is running:' + port);
 // });
 
-app.listen(3000, function () {
-  console.log('Example app listening on port 3000!')
-})
+app.listen(process.env.PORT, process.env.IP);
