@@ -3,10 +3,19 @@ var app = express();
 
 app.set("view engine", "ejs");
 
+app.use("/stylesheets",express.static(__dirname + "/stylesheets"));
+app.use("/scripts",express.static(__dirname + "/scripts"));
+app.use("/semantic",express.static(__dirname + "/semantic"));
+app.use("/speakers_images",express.static(__dirname + "/speakers_images"));
+
 app.get("/", function(req, res){
 	res.render("main");
 })
 
-app.listen(port, function() {
-    console.log('Unicon2018 is running:' + port);
-});
+// app.listen(port, function() {
+//     console.log('Unicon2018 is running:' + port);
+// });
+
+app.listen(3000, function () {
+  console.log('Example app listening on port 3000!')
+})
