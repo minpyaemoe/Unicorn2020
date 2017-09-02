@@ -5,7 +5,7 @@ app.set("view engine", "ejs");
 
 app.use(express.static(__dirname + "/public"));
 app.use(express.static(__dirname + "/semantic"));
-app.use(express.static(__dirname + "/speakers_images"));
+// app.use(express.static(__dirname + "/speakers_images"));
 
 app.get("/", function(req, res){
 	res.render("main");
@@ -15,6 +15,6 @@ app.get("/", function(req, res){
 //     console.log('Unicon2018 is running:' + port);
 // });
 
-app.listen(process.env.PORT, process.env.IP);
+// app.listen(process.env.PORT, process.env.IP);
 
-// app.listen(3000);
+app.listen(3000);
