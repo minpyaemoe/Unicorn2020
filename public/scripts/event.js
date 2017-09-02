@@ -16,6 +16,7 @@ $(document)
     });
 
     $('.modal .modal-content .list #about').on('click', function () {
+      console.log("fkfkfkfkf");
       $('body').animate({
         scrollTop: $(".about-section.segment").offset().top - 130
       }, 300);
