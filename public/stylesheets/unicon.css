@@ -1,0 +1,581 @@
+
+@font-face  {
+    font-family: 'Graphik-Medium';
+    src:url('fonts/Graphik-Medium.otf');
+}
+
+.ui.button {
+  background-color: rgb(51, 16, 107);
+  color: white;
+}
+
+.ui.vertical.segment {
+  border-bottom: none;
+}
+
+.ui.inverted.header-section.segment, .ui.primary.inverted.segment {
+    background: none;
+    background-image: url('../speakers_images/background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /*background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);*/
+}
+
+.ui.inverted.footer.segment, .ui.primary.inverted.segment {
+    background: none;
+    background-color: rgb(48, 207, 208);
+}
+
+.ui.inverted.menu .header.item {
+  margin-left: 5%;
+  margin-right: 3%;
+}
+
+.ui.secondary.inverted.menu {
+  background-color: rgb(48, 207, 208);
+}
+
+.header-section.segment {
+  height: 100%;
+}
+
+.header-section.segment #background img {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header-section.segment .container {
+  position: relative;
+  top: 50%;
+	transform: translateY(-70%);
+}
+
+.header-section.segment .container img {
+  position: relative;
+  height: 80px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header-section.segment .container h1 {
+  margin-top: 5%;
+  font-weight: 700;
+  font-size: 35px;
+}
+
+.header-section.segment .container h2 {
+  font-weight: lighter;
+  font-size: 20px;
+}
+
+.header-section.segment .container h3 {
+  font-weight: lighter;
+  font-size: 18px;
+}
+
+.main.secondary.menu {
+  z-index: 1;
+  position: absolute;
+  height: 100px;
+  width: 100%;
+  margin: 0;
+  bottom: 0;
+  border-radius: 0;
+  border: none;
+  box-shadow: none;
+  transition:
+    box-shadow 0.5s ease,
+    padding 0.5s ease
+  ;
+}
+
+.main.menu .header.item {
+  font-size: 20px;
+}
+
+.main.menu .right.item {
+  padding: 0;
+  margin-right: 3%;
+}
+
+.main.menu .right.item .icon  {
+  display: none;
+}
+
+.main.menu .right.item .ui.button  {
+  height: 50px;
+  width: 120px;
+  text-align: center;
+  line-height: 25px;
+  font-weight: lighter;
+  font-size: 17px;
+}
+
+.about-section.segment {
+  margin: 0;
+  padding-top: 6em;
+  padding-bottom: 3em;
+}
+
+.about-section.segment .header.container {
+  margin: 0;
+  position: relative;
+}
+
+.about-section.segment .detail.container {
+  position: relative;
+  margin-top: 4em;
+}
+
+.about-section.segment .detail.container h3 {
+  font-weight: lighter;
+  line-height: 2em;
+  text-align: center;
+}
+
+.speakers-section.segment {
+  margin: 0;
+  padding: 3em;
+}
+
+.speakers-section.segment .header.container {
+  margin: 0;
+  position: relative;
+}
+
+.speakers-section.segment .detail.container {
+  position: relative;
+  margin-top: 4em;
+}
+
+.speakers-section.segment .detail.container .column  {
+  position: relative;
+  height: 100%;
+}
+
+.speakers-section.segment .detail.container .column  img {
+  position: relative;
+}
+
+.speakers-section.segment .detail.container .column  i {
+  z-index: 1;
+  position: absolute;
+  top: 12%;
+  right: 10%;
+  font-size: 2em;
+  color: white;
+}
+
+.speakers-section.segment .detail.container .column  h3 {
+  z-index: 1;
+  position: absolute;
+}
+
+.speakers-section.segment .detail.container .column  .name {
+  font-size: 25px;
+  color: white;
+  bottom: 20%;
+  margin-left: 5%;
+}
+.speakers-section.segment .detail.container .column  .title {
+  color: lightgrey;
+  font-weight: lighter;
+  bottom: 11%;
+  margin-left: 5%;
+}
+.speakers-section.segment .detail.container .column  .company {
+  color: lightgrey;
+  font-weight: lighter;
+  bottom: 3%;
+  margin-left: 5%;
+}
+
+
+.partners-section.segment {
+  margin: 0;
+  padding: 0;
+  /*height: 850px;*/
+  /*top: 30%;*/
+  padding: 3em;
+}
+
+.partners-section.segment .header.container {
+  margin: 0;
+  position: relative;
+  /*top: 150px;*/
+}
+
+.partners-section.segment .description.container {
+  margin: 0;
+  position: relative;
+  margin-top: 4em;
+}
+
+.partners-section.segment .description.container h3 {
+  font-weight: lighter;
+}
+
+.partners-section.segment .primary.detail.container {
+  position: relative;
+  margin-top: 3em;
+}
+
+.partners-section.segment .secondary.description.container {
+  margin: 0;
+  position: relative;
+  margin-top: 4em;
+}
+
+.partners-section.segment .primary.detail.container .column  {
+  position: relative;
+  padding: 5%;
+}
+
+.partners-section.segment .primary.detail.container .column img {
+  position: relative;
+  height: 4em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.partners-section.segment .primary.detail.container .column  img {
+  position: relative;
+}
+
+.partners-section.segment .secondary.detail.container {
+  position: relative;
+  margin-top: 3em;
+}
+
+.partners-section.segment .secondary.detail.container .column  {
+  position: relative;
+  padding: 5%;
+}
+
+.partners-section.segment .secondary.detail.container .column  img {
+  position: relative;
+  height: 7em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.agenda-section.segment {
+  margin: 0;
+  padding: 0;
+  padding: 3em;
+}
+
+.agenda-section.segment .header.container {
+  margin: 0;
+  position: relative;
+}
+
+.agenda-section.segment .description.container {
+  margin: 0;
+  position: relative;
+  margin-top: 4em;
+}
+
+.agenda-section.segment .description.container h3 {
+  font-weight: lighter;
+}
+
+.pricing-section.segment {
+  margin: 0;
+  padding: 0;
+  padding: 3em;
+}
+
+.pricing-section.segment .header.container {
+  margin: 0;
+  position: relative;
+}
+
+.pricing-section.segment .content {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  margin-top: 4em;
+}
+
+.pricing-section.segment .content .column {
+  height: 350px;
+  width: 100%;
+}
+
+.pricing-section.segment .content .column .card {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  vertical-align: middle;
+}
+
+.pricing-section.segment .content .column .card h1 {
+  position: relative;
+  top: 5%;
+  font-size: 40px;
+}
+
+.pricing-section.segment .content .column .card h2 {
+  position: relative;
+  top: 10%;
+  font-weight: lighter;
+  font-size: 18px;
+}
+
+.pricing-section.segment .content .column .card h4 {
+  position: relative;
+  top: 3%;
+  font-weight: lighter;
+  font-size: 15px;
+  color: grey;
+}
+
+/*.pricing-section.segment .content .column .card .button {
+  position: relative;
+  top: 40%;
+  height: 50px;
+  width: 120px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 100px;
+}*/
+
+.pricing-section.segment .content .column .card .button {
+  position: relative;
+  top: 23%;
+  height: 50px;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.venue-section.segment {
+  margin: 0;
+  padding: 0;
+  padding: 3em;
+}
+
+.venue-section.segment .grid {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+.venue-section.segment .grid .column  {
+  padding: 0;
+}
+
+.venue-section.segment .grid #image img  {
+  position: relative;
+  height: 500px;
+  width: 100%;
+  padding: 0;
+}
+
+
+.venue-section.segment .grid #location .location.text  {
+  position: relative;
+  top: 0;
+  height: 250px;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background-color: rgb(48, 207, 208);
+}
+
+.venue-section.segment .grid #location .location.text h2 {
+  position: relative;
+  top: 25%;
+  font-weight: 400;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+}
+
+.venue-section.segment .grid #location #map {
+  position: relative;
+  height: 250px;
+  width: 100%;
+  padding: 0;
+}
+
+
+
+.contact-section.segment {
+  margin: 0;
+  padding: 3em;
+}
+
+.contact-section.segment .header.container {
+  position: relative;
+}
+
+.contact-section.segment .update.container  {
+  position: relative;
+  margin-top: 2em;
+}
+
+.contact-section.segment .update.container h3 {
+  position: relative;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.contact-section.segment .update.container .input {
+  position: relative;
+  margin-top: 2em;
+}
+
+.contact-section.segment .contact-header.container {
+  position: relative;
+  margin-top: 4em;
+}
+
+.contact-section.segment .description.container {
+  position: relative;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.contact-section.segment .description.container h3 {
+  position: relative;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.footer.segment {
+  margin: 0;
+  padding: 0;
+  min-height: 100px;
+}
+
+.footer.segment .grid .column{
+  width: 100%;
+}
+
+.footer.segment .grid #logo .header {
+  position: relative;
+  /*margin-top: 2em;
+  margin-left: 30%;*/
+  font-size: 20px;
+  text-align: center;
+  margin-top: 1.5em;
+}
+
+.footer.segment .grid #social .container {
+  position: relative;
+  /*margin-top: 2em;*/
+  width: 150px;
+  text-align: center;
+  margin-top: 1em;
+}
+
+.footer.segment .grid #social .container i {
+  font-size: 25px;
+  font-weight: 200;
+}
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 20; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /*Enable scroll if needed */
+    background-color: rgb(48, 207, 208); /* Fallback color */
+    /*background-color: rgba(0,0,0,0.4); /* Black w/ opacity */*/
+}
+
+.modal .modal-content {
+    margin: auto;
+    padding: 20px;
+    width: 80%;
+}
+
+.modal .modal-content i {
+    color: #FFFFFF;
+    float: right;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.modal .modal-content .list {
+    margin-top: 40%;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.modal .modal-content .list .item {
+    margin: 25px 0;
+}
+
+@media only screen and (max-width: 700px) {
+  .main.menu .container {
+    display: none;
+  }
+  .main.menu .right.item button  {
+    display: none;
+  }
+  .main.menu .right.item .icon {
+    font-size: 25px;
+    display: block;
+  }
+
+  .speakers-section.segment .detail.container .column  .name {
+    font-size: 25px;
+    color: white;
+    bottom: 20%;
+    margin-left: 5%;
+  }
+  .speakers-section.segment .detail.container .column  .title {
+    font-size: 15px;
+    color: lightgrey;
+    font-weight: lighter;
+    bottom: 11%;
+    margin-left: 5%;
+  }
+  .speakers-section.segment .detail.container .column  .company {
+    font-size: 15px;
+    color: lightgrey;
+    font-weight: lighter;
+    bottom: 3%;
+    margin-left: 5%;
+  }
+
+  .venue-section.segment .grid #image img  {
+    position: relative;
+    height: 300px;
+    width: 100%;
+    padding: 0;
+  }
+
+  .footer.segment .grid #logo .header {
+    position: relative;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 1.5em;
+  }
+
+  .footer.segment .grid #social .container {
+    position: relative;
+    width: 150px;
+    text-align: center;
+  }
+
+  .footer.segment .grid #social .container i {
+    font-size: 25px;
+    font-weight: 200;
+    margin-bottom: 2em;
+  }
+}

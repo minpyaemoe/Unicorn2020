@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>UNICON 2018</title>
+    <link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css">
+    <link rel="stylesheet" type="text/css" href="/stylesheets/unicon.css">
+    <script
+  src="http://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+    <script src="semantic/dist/semantic.min.js"></script>
+    <script src="/scripts/transition.js"></script>
+    <script src="/scripts/visibility.js"></script>
+    <script src="/scripts/event.js"></script>
+
+    <script>
+      function initMap() {
+          var utown = {lat: -25.363, lng: 131.044};
+          var map = new google.maps.Map(document.getElementById('map'), {
+            zoom: 4,
+            center: utown
+          });
+          var marker = new google.maps.Marker({
+            position: utown,
+            map: map
+          });
+      }
+    </script>
+    <script async defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCqWtxeZ7ffilrlXfCQYXVU80u2ddp22dM&callback=initMap">
+    </script>
+
+  </head>
+
+  <body>
+
+    <div class="ui inverted vertical header-section center aligned segment">
+      <div class="ui text container">
+        <img class="ui image" src="/speakers_images/logo.png">
+        <h1 class="ui inverted header">
+          UNICON 2018
+        </h1>
+        <h2>Asia's Largest Collegiate Entrepreneurship Conference</h2>
+        <h3>Feb 25 - 26, 2018</h3>
+        <h3>NUS, Singapore</h3>
+      </div>
+   </div>
+
+   <div class="ui borderless center aligned inverted main secondary menu">
+     <div href="#" class="header item">
+       UNICON 2018
+     </div>
+     <div class="ui center aligned text container">
+       <a class="item" id="about" >About</a>
+       <a class="item" id="speakers">Speakers</a>
+       <a class="item" id="partners">Partners</a>
+       <a class="item" id="agenda">Agenda</a>
+       <a class="item" id="pricing">Pricing</a>
+       <a class="item" id="venue">Venue</a>
+       <a class="item" id="contact">Contact</a>
+     </div>
+     <div class="right item">
+       <a href="https://www.eventbrite.sg/e/unicon-2018-tickets-37560045106" class="ui button">Register</a>
+       <i class="sidebar icon"></i>
+     </div>
+   </div>
+
+   <div class="modal">
+     <div class="modal-content">
+       <i class="remove icon"></i>
+       <div class="ui list">
+          <div class="item" id="about">About</div>
+          <div class="item" id="speakers">Speakers</div>
+          <div class="item" id="partners">Partners</div>
+          <div class="item" id="agenda">Agenda</div>
+          <div class="item" id="pricing">Pricing</div>
+          <div class="item" id="venue">Venue</div>
+          <div class="item" id="contact">Contact</div>
+       </div>
+     </div>
+   </div>
+
+   <div class="ui vertical about-section center aligned segment">
+     <div class="ui text header container">
+       <h1 class="ui header">About</h1>
+     </div>
+     <div class="ui text detail container">
+       <h3>UNICON 2018 is a two–day conference that serves to unite international student entrepreneurs, local start-ups, angel investors and venture capitalists. Each year, outstanding young entrepreneurs from across Asia are gathered, challenged and inspired through our activities line-up.
+       </h3>
+     </div>
+   </div>
+
+   <div class="ui vertical speakers-section center aligned segment">
+     <div class="ui text header container">
+       <h1 class="ui header">Past Speakers</h1>
+     </div>
+     <div class="ui middle aligned equal width grid detail container">
+       <div class="eight wide mobile four wide tablet four wide computer column">
+         <a href="https://sg.linkedin.com/in/yinglantan"><i class="linkedin icon"></i></a>
+         <h3 class="name">Yinglan Tan</h3>
+         <h3 class="title">Venture Partner</h3>
+         <h3 class="company">Sequoia Capital</h3>
+         <img class="ui rounded image" src="/speakers_images/yinglan.png">
+       </div>
+       <div class="eight wide mobile four wide tablet four wide computer column">
+         <a href="https://sg.linkedin.com/in/willsoncuaca"><i class="linkedin icon"></i></a>
+         <h3 class="name">Wilson Cuaca</h3>
+         <h3 class="title">Managing Partner</h3>
+         <h3 class="company">East Ventures</h3>
+         <img class="ui rounded image" src="/speakers_images/wilson.png">
+       </div>
+       <div class="eight wide mobile four wide tablet four wide computer column">
+         <a href="https://sg.linkedin.com/in/limky"><i class="linkedin icon"></i></a>
+         <h3 class="name">Kuo-Yi Lim</h3>
+         <h3 class="title">Managing Partner</h3>
+         <h3 class="company">Monk's Hill Ventures</h3>
+         <img class="ui rounded image" src="/speakers_images/kuoyi.png">
+       </div>
+       <div class="eight wide mobile four wide tablet four wide computer column">
+         <a href="https://sg.linkedin.com/in/arnaudbonzom"><i class="linkedin icon"></i></a>
+         <h3 class="name">Arnaud Bonzom</h3>
+         <h3 class="title">Venture Partner</h3>
+         <h3 class="company">500 Startups</h3>
+         <img class="ui rounded image" src="/speakers_images/arnaud.png">
+       </div>
+
+       <div class="eight wide mobile four wide tablet four wide computer column">
+         <a href="https://sg.linkedin.com/in/cameronpriest"><i class="linkedin icon"></i></a>
+         <h3 class="name">Cameron Priest</h3>
+         <h3 class="title">Co-founder, CEO</h3>
+         <h3 class="company">Tradegecko</h3>
+         <img class="ui rounded image" src="/speakers_images/cameron.png">
+       </div>
+       <div class="eight wide mobile four wide tablet four wide computer column">
+         <a href="https://sg.linkedin.com/in/gracesai"><i class="linkedin icon"></i></a>
+         <h3 class="name">Grace Sai</h3>
+         <h3 class="title">Co-founder, CEO</h3>
+         <h3 class="company">The Hub Singapore</h3>
+         <img class="ui rounded image" src="/speakers_images/grace.png">
+       </div>
+       <div class="eight wide mobile four wide tablet four wide computer column">
+         <a href="https://sg.linkedin.com/in/vinodnair"><i class="linkedin icon"></i></a>
+         <h3 class="name">Vinod Nair</h3>
+         <h3 class="title">Founder, CEO</h3>
+         <h3 class="company">MoneySmart.Sg</h3>
+         <img class="ui rounded image" src="/speakers_images/vinod.png">
+       </div>
+       <div class="eight wide mobile four wide tablet four wide computer column">
+         <a href="https://sg.linkedin.com/in/pieterpaulwalraven"><i class="linkedin icon"></i></a>
+         <h3 class="name">Pieter Walraven</h3>
+         <h3 class="title">Product Manager</h3>
+         <h3 class="company">Google</h3>
+         <img class="ui rounded image" src="/speakers_images/pieter.png">
+       </div>
+
+       <div class="eight wide mobile four wide tablet four wide computer column">
+         <a href="https://sg.linkedin.com/in/stevefeiner"><i class="linkedin icon"></i></a>
+         <h3 class="name">Steven Feiner</h3>
+         <h3 class="title">Co-founder, CEO</h3>
+         <h3 class="company">A Better Florist</h3>
+         <img class="ui rounded image" src="/speakers_images/steven.png">
+       </div>
+       <div class="eight wide mobile four wide tablet four wide computer column">
+         <a href="https://sg.linkedin.com/in/wei-zhu-1609bb1"><i class="linkedin icon"></i></a>
+         <h3 class="name">Wei Zhu</h3>
+         <h3 class="title">Founder, CEO</h3>
+         <h3 class="company">Axinan</h3>
+         <img class="ui rounded image" src="/speakers_images/weizhu.png">
+       </div>
+       <div class="eight wide mobile four wide tablet four wide computer column">
+         <a href="https://sg.linkedin.com/in/jiajih"><i class="linkedin icon"></i></a>
+         <h3 class="name">Jia Jih Chai</h3>
+         <h3 class="title">VP International</h3>
+         <h3 class="company">Carousell</h3>
+         <img class="ui rounded image" src="/speakers_images/jiajih.png">
+       </div>
+       <div class="eight wide mobile four wide tablet four wide computer column">
+         <a href="https://sg.linkedin.com/in/titanlyy"><i class="linkedin icon"></i></a>
+         <h3 class="name">Titan Lee</h3>
+         <h3 class="title">Head of Growth</h3>
+         <h3 class="company">Tech in Asia</h3>
+         <img class="ui rounded image" src="/speakers_images/titan.png">
+       </div>
+
+       <div class="eight wide mobile four wide tablet four wide computer column">
+         <a href="https://sg.linkedin.com/in/lee-jun-lin-64811820"><i class="linkedin icon"></i></a>
+         <h3 class="name">Jun Lin Lee</h3>
+         <h3 class="title">Co-founder</h3>
+         <h3 class="company">Minitheory</h3>
+         <img class="ui rounded image" src="/speakers_images/junlin.png">
+       </div>
+       <div class="eight wide mobile four wide tablet four wide computer column">
+         <a href="https://sg.linkedin.com/in/johannquerne"><i class="linkedin icon"></i></a>
+         <h3 class="name">Johann Querne</h3>
+         <h3 class="title">Head of Digital Marketing</h3>
+         <h3 class="company">Uber APAC</h3>
+         <img class="ui rounded image" src="/speakers_images/johann.png">
+       </div>
+       <div class="eight wide mobile four wide tablet four wide computer column">
+         <a href="https://my.linkedin.com/in/howiechang"><i class="linkedin icon"></i></a>
+         <h3 class="name">Howie Chang</h3>
+         <h3 class="title">Head of Product</h3>
+         <h3 class="company">The Comissioned</h3>
+         <img class="ui rounded image" src="/speakers_images/howie.png">
+       </div>
+       <div class="eight wide mobile four wide tablet four wide computer column">
+         <a href="https://sg.linkedin.com/in/william-gilchrist-39a953b"><i class="linkedin icon"></i></a>
+         <h3 class="name">William Gilchrist</h3>
+         <h3 class="title">Head of Sales</h3>
+         <h3 class="company">MyDoc</h3>
+         <img class="ui rounded image" src="/speakers_images/william.png">
+       </div>
+
+     </div>
+   </div>
+
+
+   <div class="ui vertical partners-section center aligned segment">
+     <div class="ui text header container">
+       <h1 class="ui header">Partners</h1>
+     </div>
+     <div class="ui text description container">
+       <h3>Industry-defining brands that have helped make UNICON into what it is today.
+       </h3>
+     </div>
+
+     <div class="ui center aligned equal width grid primary detail container">
+       <div class="eight wide mobile four wide tablet four wide computer column">
+         <img class="ui image" src="/speakers_images/google.png">
+       </div>
+       <div class="eight wide mobile four wide tablet four wide computer column">
+         <img class="ui image" src="/speakers_images/paypal.png">
+       </div>
+       <div class="eight wide mobile four wide tablet four wide computer column">
+         <img class="ui image" src="/speakers_images/amazon.png">
+       </div>
+       <div class="eight wide mobile four wide tablet four wide computer column">
+         <img class="ui image" src="/speakers_images/facebook.png">
+       </div>
+       <div class="eight wide mobile four wide tablet four wide computer column">
+         <img class="ui image" src="/speakers_images/sea.png">
+       </div>
+       <div class="eight wide mobile four wide tablet four wide computer column">
+         <img class="ui image" src="/speakers_images/grab.png">
+       </div>
+       <div class="eight wide mobile four wide tablet four wide computer column">
+         <img class="ui image" src="/speakers_images/carousell.png">
+       </div>
+       <div class="eight wide mobile four wide tablet four wide computer column">
+         <img class="ui image" src="/speakers_images/honestbee.png">
+       </div>
+     </div>
+
+     <div class="ui text secondary description container">
+       <h3>Talents from region's top universities will be joining us.</h3>
+     </div>
+
+     <div class="ui center aligned equal width grid secondary detail container">
+       <div class="eight wide mobile four wide tablet four wide computer column">
+         <img class="ui image" src="/speakers_images/nus.png">
+       </div>
+       <div class="eight wide mobile four wide tablet four wide computer column">
+         <img class="ui image" src="/speakers_images/hkust.png">
+       </div>
+       <div class="eight wide mobile four wide tablet four wide computer column">
+         <img class="ui image" src="/speakers_images/kaist.png">
+       </div>
+       <div class="eight wide mobile four wide tablet four wide computer column">
+         <img class="ui image" src="/speakers_images/ntu.png">
+       </div>
+       <div class="eight wide mobile four wide tablet four wide computer column">
+         <img class="ui image" src="/speakers_images/tsinghua.png">
+       </div>
+       <div class="eight wide mobile four wide tablet four wide computer column">
+         <img class="ui image" src="/speakers_images/tokyo.png">
+       </div>
+       <div class="eight wide mobile four wide tablet four wide computer column">
+         <img class="ui image" src="/speakers_images/peking.png">
+       </div>
+       <div class="eight wide mobile four wide tablet four wide computer column">
+         <img class="ui image" src="/speakers_images/seoul.png">
+       </div>
+     </div>
+
+   </div>
+
+   <div class="ui vertical agenda-section center aligned segment">
+     <div class="ui text header container">
+       <h1 class="ui header">Agenda</h1>
+     </div>
+     <div class="ui text description container">
+       <h3>Stay tuned for agenda updates.</h3>
+     </div>
+  </div>
+
+
+  <div class="ui vertical pricing-section center aligned segment">
+
+    <div class="ui text header container">
+      <h1 class="ui header">Pricing</h1>
+    </div>
+
+    <div class="ui middle aligned equal width content grid container">
+      <div class="eight wide mobile four wide tablet four wide computer column">
+        <div class="ui raised card">
+          <h2>Current Students</h2>
+          <h4>Limited Supply</h4>
+          <h1>FREE</h1>
+          <a href="https://www.eventbrite.sg/e/unicon-2018-tickets-37560045106" class="ui button">Register Now</a>
+        </div>
+      </div>
+      <div class="eight wide mobile four wide tablet four wide computer column">
+        <div class="ui raised card">
+          <h2>Recent Graduates</h2>
+          <h4>Class of 2015 Onwards</h4>
+          <h1>S$100</h1>
+          <a href="https://www.eventbrite.sg/e/unicon-2018-tickets-37560045106" class="ui button">Register Now</a>
+        </div>
+      </div>
+      <div class="eight wide mobile four wide tablet four wide computer column">
+        <div class="ui raised card">
+          <h2>Public</h2>
+          <h4>Selection criteria applied</h4>
+          <h1>S$250</h1>
+          <a href="https://www.eventbrite.sg/e/unicon-2018-tickets-37560045106" class="ui button">Register Now</a>
+        </div>
+      </div>
+      <div class="eight wide mobile four wide tablet four wide computer column">
+        <div class="ui raised card">
+          <h2>Investor</h2>
+          <h4>Access to Meeting Area</h4>
+          <h1>S$400</h1>
+          <a href="https://www.eventbrite.sg/e/unicon-2018-tickets-37560045106" class="ui button">Register Now</a>
+        </div>
+      </div>
+    </div>
+
+ </div>
+
+ <div class="ui vertical venue-section segment">
+
+   <div class="ui middle aligned grid">
+     <div class="row">
+       <div class="sixteen wide mobile sixteen wide tablet eight wide computer column" id="image">
+         <img class="ui image" src="/speakers_images/utown.jpg">
+       </div>
+       <div class="sixteen wide mobile sixteen wide tablet eight wide computer column" id="location">
+         <div class="ui center aligned location text">
+           <h2>Feb 25 - 26, 2018</h2>
+           <h2>University Town</h2>
+           <h2>NUS, Singapore</h2>
+         </div>
+         <div id="map">
+           <script>
+             function initMap() {
+                 var utown = {lat: 1.304601, lng: 103.772312};
+                 var map = new google.maps.Map(document.getElementById('map'), {
+                   zoom: 16,
+                   center: utown
+                 });
+                 var marker = new google.maps.Marker({
+                   position: utown,
+                   map: map
+                 });
+             }
+           </script>
+           <script async defer
+             src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCqWtxeZ7ffilrlXfCQYXVU80u2ddp22dM&callback=initMap">
+           </script>
+         </div>
+       </div>
+     </div>
+   </div>
+ </div>
+
+ <div class="ui vertical contact-section segment">
+   <div class="ui text center aligned header container">
+     <h1 class="ui header">What's next?</h1>
+   </div>
+
+   <div class="ui text center aligned update container">
+     <h3>We announce updates via email first. Leave your address to be the first to know.</h3>
+       <form method="POST" action="http://formspree.io/sotwlgh@gmail.com">
+         <div class="ui action input">
+         <input type="text" name="email" placeholder="Email">
+         <button class="ui button" type="submit">Apply Now</button>
+       </div>
+       </form>
+   </div>
+
+   <div class="ui text center aligned contact-header container">
+     <h1 class="ui header">Get in touch</h1>
+   </div>
+
+   <div class="ui text center aligned description container">
+     <h3>Have some additional questions? Contact us at <a href="mailto:info@unicon.com?Subject=Hello%20UNICON2018" target="_top">info@unicon.com</a></h3>
+   </div>
+
+ </div>
+
+ <div class="ui inverted vertical footer segment">
+
+   <div class="ui stackable inverted grid">
+     <div class="four wide column" id="logo">
+       <h4 class="ui inverted header">©UNICON 2018</h4>
+     </div>
+     <div class="eight wide column">
+       <div class="ui text container">
+       </div>
+     </div>
+     <div class="four wide column" id="social">
+       <div class="ui text container">
+         <i class="facebook f icon"></i>
+         <i class="linkedin icon"></i>
+         <i class="instagram icon"></i>
+       </div>
+     </div>
+   </div>
+ </div>
+
+ </div>
+
+</body>
+
+</html>
