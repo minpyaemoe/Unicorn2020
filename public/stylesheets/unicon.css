@@ -101,6 +101,7 @@ html,body {
   border-radius: 0;
   border: none;
   box-shadow: none;
+  box-sizing: border-box;
   transition:
     box-shadow 0.5s ease,
     padding 0.5s ease
