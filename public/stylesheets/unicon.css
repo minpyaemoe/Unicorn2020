@@ -568,20 +568,20 @@
     ;
   }
 
-  .speakers-section.segment .detail.container .column  .name {
+  .speakers-section.segment .detail .column  .name {
     font-size: 18px;
     color: white;
     bottom: 20%;
     margin-left: 5%;
   }
-  .speakers-section.segment .detail.container .column  .title {
+  .speakers-section.segment .detail .column  .title {
     font-size: 12px;
     color: lightgrey;
     font-weight: lighter;
     bottom: 11%;
     margin-left: 5%;
   }
-  .speakers-section.segment .detail.container .column  .company {
+  .speakers-section.segment .detail .column  .company {
     font-size: 12px;
     color: lightgrey;
     font-weight: lighter;
@@ -589,7 +589,7 @@
     margin-left: 5%;
   }
 
-  .speakers-section.segment .detail.container .column  i {
+  .speakers-section.segment .detail .column  i {
     z-index: 1;
     position: absolute;
     top: 15%;
