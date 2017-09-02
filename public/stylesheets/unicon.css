@@ -520,11 +520,80 @@
     margin: 25px 0;
 }
 
+@media only screen and (min-device-width : 375px) and (max-device-width : 667px) {
+  .main.menu .container {
+    display: none;
+  }
+  .main.menu .right.item .button  {
+    display: none;
+  }
+  .main.menu .right.item .icon {
+    font-size: 25px;
+    display: block;
+  }
+
+  .speakers-section.segment .detail.container .column  .name {
+    font-size: 20px;
+    color: white;
+    bottom: 20%;
+    margin-left: 5%;
+  }
+  .speakers-section.segment .detail.container .column  .title {
+    font-size: 13px;
+    color: lightgrey;
+    font-weight: lighter;
+    bottom: 11%;
+    margin-left: 5%;
+  }
+  .speakers-section.segment .detail.container .column  .company {
+    font-size: 13px;
+    color: lightgrey;
+    font-weight: lighter;
+    bottom: 3%;
+    margin-left: 5%;
+  }
+
+  .speakers-section.segment .detail.container .column  i {
+    z-index: 1;
+    position: absolute;
+    top: 15%;
+    right: 15%;
+    font-size: 1.5em;
+    color: white;
+  }
+
+  .venue-section.segment .grid #image img  {
+    position: relative;
+    height: 300px;
+    width: 100%;
+    padding: 0;
+  }
+
+  .footer.segment .grid #logo .header {
+    position: relative;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 1.5em;
+  }
+
+  .footer.segment .grid #social .container {
+    position: relative;
+    width: 150px;
+    text-align: center;
+  }
+
+  .footer.segment .grid #social .container i {
+    font-size: 25px;
+    font-weight: 200;
+    margin-bottom: 2em;
+  }
+}
+
 @media only screen and (max-width: 700px) {
   .main.menu .container {
     display: none;
   }
-  .main.menu .right.item button  {
+  .main.menu .right.item .button  {
     display: none;
   }
   .main.menu .right.item .icon {
