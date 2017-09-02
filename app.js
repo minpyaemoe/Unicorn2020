@@ -5,7 +5,6 @@ app.set("view engine", "ejs");
 
 app.use(express.static(__dirname + "/public"));
 app.use(express.static(__dirname + "/semantic"));
-// app.use(express.static(__dirname + "/speakers_images"));
 
 app.get("/", function(req, res){
 	res.render("main");
