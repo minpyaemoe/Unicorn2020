@@ -160,26 +160,26 @@
   padding: 3em;
 }
 
-.speakers-section.segment .header.container {
+.speakers-section.segment .header {
   margin: 0;
   position: relative;
 }
 
-.speakers-section.segment .detail.container {
+.speakers-section.segment .detail {
   position: relative;
   margin-top: 4em;
 }
 
-.speakers-section.segment .detail.container .column  {
+.speakers-section.segment .column  {
   position: relative;
   height: 100%;
 }
 
-.speakers-section.segment .detail.container .column  img {
+.speakers-section.segment .detail .column  img {
   position: relative;
 }
 
-.speakers-section.segment .detail.container .column  i {
+.speakers-section.segment .detail .column  i {
   z-index: 1;
   position: absolute;
   top: 12%;
@@ -188,24 +188,24 @@
   color: white;
 }
 
-.speakers-section.segment .detail.container .column  h3 {
+.speakers-section.segment .detail .column  h3 {
   z-index: 1;
   position: absolute;
 }
 
-.speakers-section.segment .detail.container .column  .name {
+.speakers-section.segment .detail .column  .name {
   font-size: 25px;
   color: white;
   bottom: 20%;
   margin-left: 5%;
 }
-.speakers-section.segment .detail.container .column  .title {
+.speakers-section.segment .detail .column  .title {
   color: lightgrey;
   font-weight: lighter;
   bottom: 11%;
   margin-left: 5%;
 }
-.speakers-section.segment .detail.container .column  .company {
+.speakers-section.segment .detail .column  .company {
   color: lightgrey;
   font-weight: lighter;
   bottom: 3%;
