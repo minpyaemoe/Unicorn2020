@@ -437,7 +437,7 @@ $.fn.visibility = function(parameters) {
                 ? $context.css('overflow-x')
                 : false
             ;
-            return (overflowX == 'hidden' || overflowX == 'hidden');
+            return (overflowX == 'auto' || overflowX == 'scroll');
           }
         },
 

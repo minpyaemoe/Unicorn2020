@@ -13,7 +13,7 @@ html,body {
 }
 
 .ui.button {
-  background-color: rgb(51, 16, 107);
+  background-color: rgb(51, 16, 107);;
   color: white;
 }
 
@@ -23,7 +23,8 @@ html,body {
 
 .ui.inverted.header-section.segment, .ui.primary.inverted.segment {
     background: none;
-    background-image: url('/speakers_images/background.png');
+    background-color: rgb(51, 16, 107);
+    /*background-image: url('/speakers_images/background.png');*/
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
