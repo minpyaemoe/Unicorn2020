@@ -4,6 +4,7 @@ var app = express();
 app.set("view engine", "ejs");
 
 app.use(express.static(__dirname + "/public"));
+app.use(express.static(__dirname + "/public/scripts"));
 app.use(express.static(__dirname + "/semantic"));
 
 app.get("/", function(req, res){
