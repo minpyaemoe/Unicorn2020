@@ -609,12 +609,12 @@
 
   .contact-section.segment .update.container .input input {
     position: relative;
-    width: 100px;
+    width: 200px;
   }
 
   .contact-section.segment .update.container .input button {
     position: relative;
-    width: 50px;
+    width: 100px;
   }
 
   /*.footer.segment .grid #logo .header {
