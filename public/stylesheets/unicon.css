@@ -109,7 +109,7 @@
   ;
 }
 
-.main.menu .header.item {
+.main.menu .header.item h1{
   font-size: 22px;
   font-weight: 500;
 }
@@ -584,10 +584,15 @@
     ;
   }
 
+  .main.menu .header.item h1{
+    display: none;
+  }
+
   .main.menu .header.item .ui.button{
+    float: left;
     display: block;
-    height: 50px;
-    width: 120px;
+    height: 40px;
+    width: 100px;
     text-align: center;
     line-height: 25px;
     font-weight: 500;
