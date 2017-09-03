@@ -78,7 +78,7 @@
 }
 
 .header-section.segment .container h1 {
-  margin-top: 8%;
+  margin-top: 5%;
   font-weight: 700;
   font-size: 35px;
 }
@@ -558,6 +558,13 @@
 }
 
 @media only screen and (max-width: 700px) {
+
+  .header-section.segment .container {
+    position: relative;
+    top: 50%;
+  	transform: translateY(-50%);
+  }
+
   .main.menu .container {
     display: none;
   }
