@@ -595,7 +595,7 @@
   }
 
   .main.menu .header.item .ui.button {
-    padding-top: 10px;
+    padding: 10 auto;
     margin: 0;
     display: block;
     height: 40px;
