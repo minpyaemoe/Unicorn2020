@@ -715,7 +715,7 @@
     margin-top: 15px;
   }
 
-  .footer.segment .grid #comment .header {
+  .footer.segment .grid #comment .container .header {
     position: relative;
     font-size: 12px;
     text-align: center;
