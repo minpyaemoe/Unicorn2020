@@ -251,6 +251,7 @@
 }
 
 .partners-section.segment .description.container h3 {
+  line-height: 2em;
   font-weight: 500;
 }
 
@@ -456,6 +457,7 @@
 
 .contact-section.segment .update.container h3 {
   position: relative;
+  line-height: 2em;
   font-size: 18px;
   font-weight: 500;
 }
@@ -478,6 +480,7 @@
 
 .contact-section.segment .description.container h3 {
   position: relative;
+  line-height: 2em;
   font-size: 18px;
   font-weight: 500;
 }
