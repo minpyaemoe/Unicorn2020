@@ -607,6 +607,12 @@
     padding: 0;
   }
 
+  .contact-section.segment .update.container .input {
+    position: relative;
+    padding-left: 30%;
+    padding-right: 30%;
+  }
+
   /*.footer.segment .grid #logo .header {
     position: relative;
     font-size: 20px;

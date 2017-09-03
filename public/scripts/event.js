@@ -3,9 +3,9 @@
 $(document)
   .ready(function() {
     // fix main menu to page on passing
-    // $('.main.menu').visibility({
-    //   type: 'fixed',
-    // });
+    $('.main.menu').visibility({
+      type: 'fixed',
+    });
 
     $('.main.menu .right.item .icon').on('click', function () {
       $('.modal').css("display", "block");
