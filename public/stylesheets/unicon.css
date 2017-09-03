@@ -473,7 +473,7 @@
   font-weight: 300;
 }
 
-/*.footer.segment {
+.footer.segment {
   width: 100%;
   margin: 0;
   padding: 0;
@@ -501,7 +501,7 @@
 .footer.segment .grid #social .container i {
   font-size: 25px;
   font-weight: 200;
-}*/
+}
 
 .modal {
     display: none; /* Hidden by default */
@@ -617,7 +617,7 @@
     width: 100px;
   }
 
-  /*.footer.segment .grid #logo .header {
+  .footer.segment .grid #logo .header {
     position: relative;
     font-size: 20px;
     text-align: center;
@@ -634,5 +634,5 @@
     font-size: 25px;
     font-weight: 200;
     margin-bottom: 2em;
-  }*/
+  }
 }
