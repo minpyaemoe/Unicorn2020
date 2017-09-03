@@ -113,16 +113,21 @@
   display: block;
   font-size: 22px;
   font-weight: 600;
+  text-align: center;
+  margin-top: 10px;
 }
 
-.main.menu .header.item .ui.button {
-  display: none;
-  height: 40px;
-  width: 100px;
-  text-align: center;
-  line-height: 20px;
+.main.menu .container .item {
   font-weight: 600;
   font-size: 17px;
+}
+
+.main.menu .header.item .ui.header {
+  display: block;
+  font-size: 22px;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 10px;
 }
 
 .main.menu .right.item {
