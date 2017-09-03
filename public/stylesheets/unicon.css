@@ -1,12 +1,7 @@
 
 @font-face  {
-    font-family: 'Graphik-Medium';
+    font-family: 'Graphik';
     src:url('/fonts/Graphik-Medium.otf');
-}
-
-@font-face  {
-    font-family: 'Graphik-Bold';
-    src:url('/fonts/Graphik-Bold.otf');
 }
 
 /*html,body {
@@ -17,11 +12,11 @@
     overflow-y: auto;
 }*/
 
-/** {
+* {
     background: #000 !important;
     color: #0f0 !important;
     outline: solid #f00 1px !important;
-}*/
+}
 
 .ui.button {
   background-color: rgb(51, 16, 107);;
