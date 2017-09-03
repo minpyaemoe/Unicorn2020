@@ -602,10 +602,10 @@
     padding: 0;
   }
 
-  .contact-section.segment .update.container form {
+  /*.contact-section.segment .update.container form {
     position: relative;
     width: 50%;
-  }
+  }*/
 
   /*.footer.segment .grid #logo .header {
     position: relative;
