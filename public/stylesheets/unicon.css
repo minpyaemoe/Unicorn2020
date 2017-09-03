@@ -590,6 +590,8 @@
   }
 
   .main.menu .header.item .ui.button {
+    padding: 0;
+    margin: 0;
     float: left;
     display: block;
     height: 40px;
