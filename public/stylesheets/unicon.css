@@ -481,16 +481,13 @@
 
 .footer.segment .grid #logo .header {
   position: relative;
-  /*margin-top: 2em;
-  margin-left: 30%;*/
   font-size: 20px;
   text-align: center;
   margin-top: 1.5em;
-}*/
+}
 
-/*.footer.segment .grid #social .container {
+.footer.segment .grid #social .container {
   position: relative;
-  /*margin-top: 2em;*/
   width: 100px;
   text-align: center;
   margin-top: 1em;
@@ -607,9 +604,7 @@
 
   .contact-section.segment .update.container form {
     position: relative;
-    width: 80%;
-    padding-left: 2em;
-    padding-right: 2em;
+    width: 50%;
   }
 
   /*.footer.segment .grid #logo .header {
