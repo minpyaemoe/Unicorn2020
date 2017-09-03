@@ -480,9 +480,9 @@
   min-height: 100px;
 }
 
-.footer.segment .grid .column{
+/*.footer.segment .grid .column{
   width: 100%;
-}
+}*/
 
 .footer.segment .grid #logo .header {
   position: relative;
@@ -493,7 +493,7 @@
 
 .footer.segment .grid #social .container {
   position: relative;
-  width: 100px;
+  width: 150px;
   text-align: center;
   margin-top: 1em;
 }
