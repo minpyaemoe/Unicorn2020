@@ -610,7 +610,7 @@
     text-align: center;
     line-height: 18px;
     font-weight: 600;
-    font-size: 17px;
+    font-size: 16px;
   }
 
   .about-section.segment .detail.container {
@@ -679,7 +679,8 @@
   .contact-section.segment .update.container .input button {
     position: relative;
     width: 100px;
-    font-size: 20px;
+    font-size: 15px;
+    text-align: center;
   }
 
   .footer.segment {
