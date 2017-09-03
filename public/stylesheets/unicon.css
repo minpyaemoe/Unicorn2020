@@ -161,7 +161,7 @@
 }
 
 .about-section.segment .detail.container h3 {
-  font-weight: 550;
+  font-weight: 500;
   line-height: 2em;
   text-align: left;
 }
@@ -246,7 +246,7 @@
 }
 
 .partners-section.segment .description.container h3 {
-  font-weight: 550;
+  font-weight: 500;
 }
 
 .partners-section.segment .primary.detail.container {
@@ -312,7 +312,7 @@
 }
 
 .agenda-section.segment .description.container h3 {
-  font-weight: 550;
+  font-weight: 500;
 }
 
 .pricing-section.segment {
@@ -455,7 +455,7 @@
 .contact-section.segment .update.container h3 {
   position: relative;
   font-size: 18px;
-  font-weight: 550;
+  font-weight: 500;
 }
 
 .contact-section.segment .update.container .input {
@@ -477,7 +477,7 @@
 .contact-section.segment .description.container h3 {
   position: relative;
   font-size: 18px;
-  font-weight: 550;
+  font-weight: 500;
 }
 
 
