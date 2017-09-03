@@ -12,11 +12,11 @@
     overflow-y: auto;
 }*/
 
-* {
+/** {
     background: #000 !important;
     color: #0f0 !important;
     outline: solid #f00 1px !important;
-}
+}*/
 
 .ui.button {
   background-color: rgb(51, 16, 107);;
@@ -595,10 +595,8 @@
   }
 
   .main.menu .header.item .ui.button {
-    /*padding-top: : 10px;
-    margin: 0 auto;*/
-    margin-left: 0;
-    padding-left: 0;
+    padding-top: : 10px;
+    padding-left: 10px;
     display: block;
     height: 40px;
     width: 100px;
