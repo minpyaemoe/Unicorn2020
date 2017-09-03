@@ -4,6 +4,11 @@
     src:url('/fonts/Graphik-Medium.otf');
 }
 
+@font-face  {
+    font-family: 'Graphik-Bold';
+    src:url('/fonts/Graphik-Bold.otf');
+}
+
 /*html,body {
     width: 100%;
     margin: 0px;
@@ -602,9 +607,14 @@
     padding: 0;
   }
 
-  .contact-section.segment .update.container input {
+  .contact-section.segment .update.container .input input {
     position: relative;
-    width: 30px;
+    width: 100px;
+  }
+
+  .contact-section.segment .update.container .input button {
+    position: relative;
+    width: 50px;
   }
 
   /*.footer.segment .grid #logo .header {
