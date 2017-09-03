@@ -151,7 +151,7 @@
 .about-section.segment .detail.container h3 {
   font-weight: 500;
   line-height: 2em;
-  text-align: center;
+  text-align: left;
 }
 
 .speakers-section.segment {
@@ -468,19 +468,30 @@
   font-weight: 500;
 }
 
+
+.footer.segment {
+  width: 100%;
+  margin: 0;
+  padding: 3em;
+  min-height: 100px;
+}
+
 .footer.segment .grid {
   margin: 0;
 }
-
-/*.footer.segment .grid .column{
-  width: 100%;
-}*/
 
 .footer.segment .grid #logo .header {
   position: relative;
   font-size: 20px;
   text-align: center;
-  margin-top: 1.5em;
+  margin-top: 1em;
+}
+
+.footer.segment .grid #comment .header {
+  position: relative;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 1em;
 }
 
 .footer.segment .grid #social .container {
@@ -609,22 +620,37 @@
     width: 100px;
   }
 
+
+  .footer.segment {
+    width: 100%;
+    margin: 0;
+    padding: 3em;
+    min-height: 70px;
+  }
+
   .footer.segment .grid #logo .header {
     position: relative;
     font-size: 20px;
     text-align: center;
-    margin-top: 1.5em;
+    margin-top: 1em;
+  }
+
+  .footer.segment .grid #comment .header {
+    position: relative;
+    font-size: 20px;
+    text-align: center;
+    margin: 1em;
   }
 
   .footer.segment .grid #social .container {
     position: relative;
     width: 150px;
     text-align: center;
+    margin-bottom: 1em;
   }
 
   .footer.segment .grid #social .container i {
     font-size: 25px;
     font-weight: 200;
-    margin-bottom: 2em;
   }
 }
