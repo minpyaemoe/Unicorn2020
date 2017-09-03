@@ -608,6 +608,8 @@
   .contact-section.segment .update.container form {
     position: relative;
     width: 80%;
+    padding-left: 2em;
+    padding-right: 2em;
   }
 
   /*.footer.segment .grid #logo .header {
