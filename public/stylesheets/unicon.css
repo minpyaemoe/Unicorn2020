@@ -29,8 +29,8 @@
 
 .ui.inverted.header-section.segment, .ui.primary.inverted.segment {
     background: none;
-    background-color: rgb(0, 0, 0);
-    /*background-image: url('/speakers_images/background.png');*/
+    /*background-color: rgb(0, 0, 0);*/
+    background-image: url('/speakers_images/background.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -717,7 +717,7 @@
 
   .footer.segment .grid #comment .header {
     position: relative;
-    font-size: 15px;
+    font-size: 12px;
     text-align: center;
     margin: 10px;
   }
