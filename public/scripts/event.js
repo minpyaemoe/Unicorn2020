@@ -9,7 +9,7 @@ $(document)
 
     $('.main.menu .right.item .icon').on('click', function () {
       $('.modal').css("display", "block");
-      $('body').css("overflow", "hidden");
+      $('html, body').css("overflow", "hidden");
     });
 
     $('.modal .modal-content i').on('click', function () {
