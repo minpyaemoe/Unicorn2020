@@ -120,6 +120,10 @@
 .main.menu .header.item .ui.button {
   display: none;
 }
+.main.menu .container  {
+  margin: auto;
+  width: 50%;
+}
 
 .main.menu .container .item {
   font-weight: 600;
@@ -409,7 +413,6 @@
   padding: 0;
 }
 
-
 .venue-section.segment .grid #location .location.text  {
   position: relative;
   top: 0;
@@ -435,8 +438,6 @@
   width: 100%;
   padding: 0;
 }
-
-
 
 .contact-section.segment {
   width: 100%;
@@ -481,7 +482,6 @@
   font-weight: 500;
 }
 
-
 .footer.segment {
   width: 100%;
   margin: 0;
@@ -517,7 +517,7 @@
 .footer.segment .grid #social .container i {
   position: relative;
   height: 100%;
-  margin: 0 10px;
+  margin: 0 7px;
   font-size: 25px;
   font-weight: 300;
 }
