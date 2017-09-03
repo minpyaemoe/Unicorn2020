@@ -510,7 +510,7 @@
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
     z-index: 20; /* Sit on top */
-    padding-top: 20%; /* Location of the box */
+    padding-top: 10%; /* Location of the box */
     left: 0;
     top: 0;
     width: 100%; /* Full width */
@@ -534,7 +534,7 @@
 }
 
 .modal .modal-content .list {
-    margin-top: 40%;
+    margin-top: 20%;
     color: #FFFFFF;
     text-align: center;
     font-size: 28px;
