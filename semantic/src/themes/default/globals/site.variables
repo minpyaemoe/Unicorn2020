@@ -6,7 +6,7 @@
        Fonts
 --------------------*/
 
-@fontName          : 'Roboto';
+@fontName          : 'Rubik';
 @fontSmoothing     : antialiased;
 
 @headerFont        : @fontName;
