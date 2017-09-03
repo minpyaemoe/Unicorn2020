@@ -127,7 +127,7 @@
 
 .main.menu .container .item {
   font-weight: 600;
-  font-size: 17px;
+  font-size: 15px;
 }
 
 .main.menu .right.item {
@@ -500,7 +500,13 @@
   margin-top: 1em;
 }
 
-.footer.segment .grid #comment .header {
+.footer.segment .grid #comment .container {
+  position: relative;
+  width: 100%;
+  margin: auto;
+}
+
+.footer.segment .grid #comment .container .header {
   position: relative;
   font-size: 20px;
   text-align: center;
