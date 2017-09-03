@@ -9,10 +9,12 @@ $(document)
 
     $('.main.menu .right.item .icon').on('click', function () {
       $('.modal').css("display", "block");
+      $('body').css("overflow", "hidden");
     });
 
     $('.modal .modal-content i').on('click', function () {
       $('.modal').css("display", "none");
+      $('body').css("overflow", "auto");
     });
 
     $('.modal .modal-content .list #about').on('click', function () {
@@ -20,6 +22,7 @@ $(document)
         scrollTop: $(".about-section.segment").offset().top - 130
       }, 300);
       $('.modal').css("display", "none");
+      $('body').css("overflow", "auto");
     });
 
     $('.modal .modal-content .list #speakers').on('click', function () {
@@ -27,6 +30,7 @@ $(document)
         scrollTop: $(".speakers-section.segment").offset().top - 130
       }, 300);
       $('.modal').css("display", "none");
+      $('body').css("overflow", "auto");
     });
 
     $('.modal .modal-content .list #partners').on('click', function () {
@@ -34,6 +38,7 @@ $(document)
         scrollTop: $(".partners-section.segment").offset().top - 130
       }, 300);
       $('.modal').css("display", "none");
+      $('body').css("overflow", "auto");
     });
 
     $('.modal .modal-content .list #agenda').on('click', function () {
@@ -41,6 +46,7 @@ $(document)
         scrollTop: $(".agenda-section.segment").offset().top - 130
       }, 300);
       $('.modal').css("display", "none");
+      $('body').css("overflow", "auto");
     });
 
     $('.modal .modal-content .list #pricing').on('click', function () {
@@ -48,6 +54,7 @@ $(document)
         scrollTop: $(".pricing-section.segment").offset().top - 130
       }, 300);
       $('.modal').css("display", "none");
+      $('body').css("overflow", "auto");
     });
 
     $('.modal .modal-content .list #venue').on('click', function () {
@@ -55,6 +62,7 @@ $(document)
         scrollTop: $(".venue-section.segment").offset().top
       }, 300);
       $('.modal').css("display", "none");
+      $('body').css("overflow", "auto");
     });
 
     $('.modal .modal-content .list #contact').on('click', function () {
@@ -62,8 +70,8 @@ $(document)
         scrollTop: $(".contact-section.segment").offset().top - 130
       }, 300);
       $('.modal').css("display", "none");
+      $('body').css("overflow", "auto");
     });
-
 
 
     $('.main.menu .container #about').on('click', function () {
