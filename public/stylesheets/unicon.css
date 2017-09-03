@@ -78,7 +78,7 @@
 }
 
 .header-section.segment .container h1 {
-  margin-top: 5%;
+  margin-top: 8%;
   font-weight: 700;
   font-size: 35px;
 }
@@ -690,7 +690,7 @@
 
   .footer.segment .grid #comment .header {
     position: relative;
-    font-size: 20px;
+    font-size: 18px;
     text-align: center;
     margin: 10px;
   }
