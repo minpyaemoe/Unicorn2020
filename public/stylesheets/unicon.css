@@ -606,6 +606,12 @@
     font-size: 17px;
   }
 
+  .about-section.segment .detail.container {
+    position: relative;
+    margin-top: 4em;
+    padding-left: 2em;
+    padding-right: 2em;
+  }
 
   .speakers-section.segment .detail.container .column  .name {
     font-size: 18px;
