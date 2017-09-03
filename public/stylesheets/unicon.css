@@ -572,12 +572,35 @@
 @media only screen and (max-width: 2000px) {
   .main.menu .container .item {
     font-weight: 600;
+    font-size: 16px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+@media only screen and (max-width: 1700px) {
+  .main.menu .container .item {
+    font-weight: 600;
+    font-size: 13px;
+    padding-left: 3px;
+    padding-right: 3px;
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  .main.menu .container .item {
+    font-weight: 600;
     font-size: 15px;
     padding-left: 5px;
     padding-right: 5px;
   }
-}
 
+  .speakers-section.segment .detail.container .column  {
+    position: relative;
+    height: 100%;
+    padding: 6px;
+  }  
+}
 
 @media only screen and (max-width: 700px) {
 
