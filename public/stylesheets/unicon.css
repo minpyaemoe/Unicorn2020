@@ -117,17 +117,13 @@
   margin-top: 10px;
 }
 
+.main.menu .header.item .ui.button {
+  display: none;
+}
+
 .main.menu .container .item {
   font-weight: 600;
   font-size: 17px;
-}
-
-.main.menu .header.item .ui.header {
-  display: block;
-  font-size: 22px;
-  font-weight: 600;
-  text-align: center;
-  margin-top: 10px;
 }
 
 .main.menu .right.item {
@@ -519,6 +515,9 @@
 }
 
 .footer.segment .grid #social .container i {
+  position: relative;
+  height: 100%;
+  margin: 0 10px;
   font-size: 25px;
   font-weight: 300;
 }
@@ -573,6 +572,7 @@
   .main.menu .container {
     display: none;
   }
+
   .main.menu .right.item .button  {
     display: none;
   }
