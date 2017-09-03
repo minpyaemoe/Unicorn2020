@@ -13,8 +13,8 @@ $(document)
     });
 
     $('.modal .modal-content i').on('click', function () {
+      $('html, body').css("overflow", "visible");
       $('.modal').css("display", "none");
-      $('html, body').css("overflow", "scroll");
     });
 
     $('.modal .modal-content .list #about').on('click', function () {
