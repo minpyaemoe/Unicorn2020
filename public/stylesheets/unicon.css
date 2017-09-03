@@ -1,8 +1,8 @@
 
-@font-face  {
+/*@font-face  {
     font-family: 'Graphik';
     src:url('/fonts/Graphik-Medium.otf');
-}
+}*/
 
 /*html,body {
     width: 100%;
@@ -84,12 +84,12 @@
 }
 
 .header-section.segment .container h2 {
-  font-weight: lighter;
+  font-weight: 500;
   font-size: 20px;
 }
 
 .header-section.segment .container h3 {
-  font-weight: lighter;
+  font-weight: 500;
   font-size: 18px;
 }
 
@@ -127,7 +127,7 @@
   width: 120px;
   text-align: center;
   line-height: 25px;
-  font-weight: lighter;
+  font-weight: 500;
   font-size: 17px;
 }
 
@@ -149,7 +149,7 @@
 }
 
 .about-section.segment .detail.container h3 {
-  font-weight: lighter;
+  font-weight: 500;
   line-height: 2em;
   text-align: center;
 }
@@ -201,13 +201,13 @@
 }
 .speakers-section.segment .detail.container .column  .title {
   color: lightgrey;
-  font-weight: lighter;
+  font-weight: 500;
   bottom: 11%;
   margin-left: 5%;
 }
 .speakers-section.segment .detail.container .column  .company {
   color: lightgrey;
-  font-weight: lighter;
+  font-weight: 500;
   bottom: 3%;
   margin-left: 5%;
 }
@@ -234,7 +234,7 @@
 }
 
 .partners-section.segment .description.container h3 {
-  font-weight: lighter;
+  font-weight: 500;
 }
 
 .partners-section.segment .primary.detail.container {
@@ -300,7 +300,7 @@
 }
 
 .agenda-section.segment .description.container h3 {
-  font-weight: lighter;
+  font-weight: 500;
 }
 
 .pricing-section.segment {
@@ -342,14 +342,14 @@
 .pricing-section.segment .content .column .card h2 {
   position: relative;
   top: 10%;
-  font-weight: lighter;
+  font-weight: 500;
   font-size: 18px;
 }
 
 .pricing-section.segment .content .column .card h4 {
   position: relative;
   top: 3%;
-  font-weight: lighter;
+  font-weight: 500;
   font-size: 15px;
   color: grey;
 }
@@ -369,7 +369,7 @@
   top: 23%;
   height: 50px;
   font-size: 18px;
-  font-weight: 300;
+  font-weight: 500;
 }
 
 .venue-section.segment {
@@ -410,7 +410,7 @@
 .venue-section.segment .grid #location .location.text h2 {
   position: relative;
   top: 25%;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 20px;
   color: white;
   text-align: center;
@@ -443,7 +443,7 @@
 .contact-section.segment .update.container h3 {
   position: relative;
   font-size: 18px;
-  font-weight: 300;
+  font-weight: 500;
 }
 
 .contact-section.segment .update.container .input {
@@ -465,7 +465,7 @@
 .contact-section.segment .description.container h3 {
   position: relative;
   font-size: 18px;
-  font-weight: 300;
+  font-weight: 500;
 }
 
 .footer.segment .grid {
@@ -492,7 +492,7 @@
 
 .footer.segment .grid #social .container i {
   font-size: 25px;
-  font-weight: 200;
+  font-weight: 300;
 }
 
 .modal {
@@ -519,7 +519,7 @@
     color: #FFFFFF;
     float: right;
     font-size: 35px;
-    font-weight: bold;
+    font-weight: 700;
 }
 
 .modal .modal-content .list {
@@ -527,7 +527,7 @@
     color: #FFFFFF;
     text-align: center;
     font-size: 28px;
-    font-weight: bold;
+    font-weight: 700;
 }
 
 .modal .modal-content .list .item {
@@ -571,14 +571,14 @@
   .speakers-section.segment .detail.container .column  .title {
     font-size: 12px;
     color: lightgrey;
-    font-weight: lighter;
+    font-weight: 500;
     bottom: 11%;
     margin-left: 5%;
   }
   .speakers-section.segment .detail.container .column  .company {
     font-size: 12px;
     color: lightgrey;
-    font-weight: lighter;
+    font-weight: 500;
     bottom: 3%;
     margin-left: 5%;
   }
