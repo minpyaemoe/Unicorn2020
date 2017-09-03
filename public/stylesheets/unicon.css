@@ -109,7 +109,8 @@
   ;
 }
 
-.main.menu .header.item h1{
+.main.menu .header.item .ui.header {
+  display: block;
   font-size: 22px;
   font-weight: 500;
 }
@@ -584,17 +585,17 @@
     ;
   }
 
-  .main.menu .header.item h1{
+  .main.menu .header.item .ui.header {
     display: none;
   }
 
-  .main.menu .header.item .ui.button{
+  .main.menu .header.item .ui.button {
     float: left;
     display: block;
     height: 40px;
     width: 100px;
     text-align: center;
-    line-height: 25px;
+    line-height: 20px;
     font-weight: 500;
     font-size: 17px;
   }
