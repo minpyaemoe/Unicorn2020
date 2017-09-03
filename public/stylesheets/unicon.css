@@ -622,29 +622,29 @@
   .speakers-section.segment .detail.container .column  .name {
     font-size: 18px;
     color: white;
-    bottom: 20%;
+    bottom: 18%;
     margin-left: 5%;
   }
   .speakers-section.segment .detail.container .column  .title {
-    font-size: 12px;
+    font-size: 13px;
     color: lightgrey;
     font-weight: 600;
-    bottom: 11%;
+    bottom: 10%;
     margin-left: 5%;
   }
   .speakers-section.segment .detail.container .column  .company {
-    font-size: 12px;
+    font-size: 13px;
     color: lightgrey;
     font-weight: 600;
-    bottom: 3%;
+    bottom: 2%;
     margin-left: 5%;
   }
 
   .speakers-section.segment .detail.container .column  i {
     z-index: 1;
     position: absolute;
-    top: 15%;
-    right: 13%;
+    top: 12%;
+    right: 10%;
     font-size: 1.5em;
     color: white;
   }
@@ -665,7 +665,6 @@
     position: relative;
     width: 100px;
   }
-
 
   .footer.segment {
     width: 100%;
