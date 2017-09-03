@@ -609,8 +609,14 @@
   .about-section.segment .detail.container {
     position: relative;
     margin-top: 4em;
-    padding-left: 2em;
-    padding-right: 2em;
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+
+  .speakers-section.segment .detail.container .column  {
+    position: relative;
+    height: 100%;
+    padding: 4px;
   }
 
   .speakers-section.segment .detail.container .column  .name {
