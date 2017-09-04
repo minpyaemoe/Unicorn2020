@@ -273,7 +273,7 @@
 
 .partners-section.segment .primary.detail.container .column img {
   position: relative;
-  height: 4em;
+  height: 7em;
   margin-left: auto;
   margin-right: auto;
 }
@@ -727,10 +727,10 @@
     padding-right: 1.5em;
   }
 
-  .partners-section.segment .primary.detail.container .column  {
+  /*.partners-section.segment .primary.detail.container .column  {
     position: relative;
     padding: 7%;
-  }
+  }*/
 
   .venue-section.segment .grid #image img  {
     position: relative;
