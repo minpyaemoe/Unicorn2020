@@ -666,8 +666,9 @@
 
   .main.menu .header.item .ui.button {
     /*padding-top: : 6px;*/
-    padding-left: 15px;
+    /*padding-left: 15px;*/
     display: block;
+    padding: 10px auto;
     height: 40px;
     width: 100px;
     text-align: center;
