@@ -462,6 +462,12 @@
   margin-top: 2em;
 }
 
+.contact-section.segment .update.container #thankyou_message {
+  position: relative;
+  line-height: 2em;
+  font-size: 18px;
+}
+
 .contact-section.segment .contact-header.container {
   position: relative;
   margin-top: 4em;
