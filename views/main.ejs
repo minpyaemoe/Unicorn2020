@@ -374,10 +374,22 @@
 
    <div class="ui text center aligned update container">
      <h3>We announce updates via email first. Leave your address to be the first to know.</h3>
-      <div class="ui action input">
+      <!-- <div class="ui action input">
           <input type="text" name="email" placeholder="Email">
           <button class="ui button" type="submit">Apply</button>
-      </div>
+      </div> -->
+
+
+       <form id="gform" method="POST" action="https://script.google.com/macros/s/AKfycbzQ3YHgkCgtq6rMH14-X-27Ntjb63TmvgpBBjWjO9F85gWnjCJy/exec">
+        <div class="ui action input">
+         <input type="text" name="email" placeholder="Email">
+         <button class="ui button" type="submit">Apply Now</button>
+        </div>
+        <div style="display:none;" id="thankyou_message">
+          <h2>Thanks! We will get back to you soon!</h2>
+        </div>
+       </form>
+
        <!-- <form method="POST" action="https://formspree.io/sotwlgh@gmail.com">
          <div class="ui action input">
          <input type="text" name="email" placeholder="Email">
@@ -418,6 +430,8 @@
  </div>
 
  </div>
+
+ <script data-cfasync="false" type="text/javascript" src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"></script>
 
 </body>
 
