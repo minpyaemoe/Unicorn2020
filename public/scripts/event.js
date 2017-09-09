@@ -19,7 +19,7 @@ $(document)
 
     $('.modal .modal-content .list #about').on('click', function () {
       $('body').animate({
-        scrollTop: $(".about-section.segment").offset().top - 100
+        scrollTop: $(".about-section.segment").offset().top - 80
       }, 300);
       $('.modal').css("display", "none");
       $('html, body').css("overflow", "visible");
@@ -27,7 +27,7 @@ $(document)
 
     $('.modal .modal-content .list #speakers').on('click', function () {
       $('body').animate({
-        scrollTop: $(".speakers-section.segment").offset().top - 100
+        scrollTop: $(".speakers-section.segment").offset().top - 80
       }, 300);
       $('.modal').css("display", "none");
       $('html, body').css("overflow", "visible");
@@ -35,7 +35,7 @@ $(document)
 
     $('.modal .modal-content .list #partners').on('click', function () {
       $('body').animate({
-        scrollTop: $(".partners-section.segment").offset().top - 100
+        scrollTop: $(".partners-section.segment").offset().top - 90
       }, 300);
       $('.modal').css("display", "none");
       $('html, body').css("overflow", "visible");
@@ -51,7 +51,7 @@ $(document)
 
     $('.modal .modal-content .list #pricing').on('click', function () {
       $('body').animate({
-        scrollTop: $(".pricing-section.segment").offset().top - 100
+        scrollTop: $(".pricing-section.segment").offset().top - 90
       }, 300);
       $('.modal').css("display", "none");
       $('html, body').css("overflow", "visible");
