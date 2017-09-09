@@ -464,7 +464,7 @@
 
 .contact-section.segment .update.container #thankyou_message h2 {
   position: relative;
-  line-height: 2em;
+  margin-top: 3em;
   font-size: 18px;
 }
 
