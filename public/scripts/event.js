@@ -76,7 +76,7 @@ $(document)
 
     $('.main.menu .container #about').on('click', function () {
       $('body').animate({
-        scrollTop: $(".about-section.segment").offset().top - 130
+        scrollTop: $(".about-section.segment").offset().top - 100
       }, 300);
     });
 
