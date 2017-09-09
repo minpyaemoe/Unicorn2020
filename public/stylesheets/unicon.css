@@ -462,7 +462,7 @@
   margin-top: 2em;
 }
 
-.contact-section.segment .update.container #thankyou_message {
+.contact-section.segment .update.container #thankyou_message h2 {
   position: relative;
   line-height: 2em;
   font-size: 18px;
