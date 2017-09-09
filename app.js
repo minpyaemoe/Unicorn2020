@@ -10,10 +10,6 @@ app.get("/", function(req, res){
 	res.render("main");
 })
 
-// app.listen(port, function() {
-//     console.log('Unicon2018 is running:' + port);
-// });
-
 app.listen(process.env.PORT, process.env.IP);
 
 // app.listen(3000);

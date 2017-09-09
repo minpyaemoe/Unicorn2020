@@ -14,23 +14,6 @@
     <script src="scripts/visibility.js"></script>
     <script src="scripts/event.js"></script>
 
-    <!-- <script>
-       function initMap() {
-           var utown = {lat: -25.363, lng: 131.044};
-           var map = new google.maps.Map(document.getElementById('map'), {
-             zoom: 4,
-             center: utown
-           });
-           var marker = new google.maps.Marker({
-             position: utown,
-             map: map
-           });
-       }
-     </script>
-     <script async defer
-       src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCqWtxeZ7ffilrlXfCQYXVU80u2ddp22dM&callback=initMap">
-     </script> -->
-
   </head>
 
   <body>
@@ -374,23 +357,19 @@
 
    <div class="ui text center aligned update container">
      <h3>We announce updates via email first. Leave your address to be the first to know.</h3>
-      <!-- <div class="ui action input">
-          <input type="text" name="email" placeholder="Email">
-          <button class="ui button" type="submit">Apply</button>
-      </div> -->
-
-
        <form id="gform" method="POST" action="https://script.google.com/macros/s/AKfycbzQ3YHgkCgtq6rMH14-X-27Ntjb63TmvgpBBjWjO9F85gWnjCJy/exec">
         <div class="ui action input">
          <input type="text" name="email" placeholder="Email">
          <button class="ui button" type="submit">Apply</button>
         </div>
        </form>
-
        <div style="display:none;" id="thankyou_message">
-         <h2>Thanks! We will update you soon 😊</h2>
+         <h2>Thank you! Please check your indox for details.</h2>
        </div>
-
+       <!-- <div class="ui action input">
+           <input type="text" name="email" placeholder="Email">
+           <button class="ui button" type="submit">Apply</button>
+       </div> -->
        <!-- <form method="POST" action="https://formspree.io/sotwlgh@gmail.com">
          <div class="ui action input">
          <input type="text" name="email" placeholder="Email">
