@@ -19,7 +19,7 @@ $(document)
 
     $('.modal .modal-content .list #about').on('click', function () {
       $('body').animate({
-        scrollTop: $(".about-section.segment").offset().top - 80
+        scrollTop: $(".about-section.segment").offset().top - 60
       }, 300);
       $('.modal').css("display", "none");
       $('html, body').css("overflow", "visible");
