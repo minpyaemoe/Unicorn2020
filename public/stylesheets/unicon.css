@@ -19,7 +19,23 @@
 }*/
 
 .ui.button {
-  background-color: rgb(51, 16, 107);;
+  background-color: rgb(48, 207, 208);
+  color: white;
+}
+
+.ui.button.big {
+  width: 300px;
+  display: block;
+  margin: 20px auto;
+  background-color: rgb(48, 207, 208);
+  color: white;
+}
+
+.ui.button.big.arena {
+  width: 300px;
+  display: block;
+  margin: 20px auto;
+  background-color: rgb(45, 61, 133);
   color: white;
 }
 
@@ -29,27 +45,29 @@
 
 .ui.inverted.header-section.segment, .ui.primary.inverted.segment {
     background: none;
-    /*background-color: rgb(0, 0, 0);*/
-    background-image: url('/speakers_images/background.png');
+    background-color: rgb(45, 61, 133);
+    background-image: url('/speakers_images/stars.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    /*//background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);*/
     /*background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);*/
 }
 
 .ui.inverted.footer.segment, .ui.primary.inverted.segment {
     background: none;
-    background-color: rgb(48, 207, 208);
+    background-color: rgb(45, 61, 133);
 }
 
 .ui.inverted.menu .header.item {
-  margin-left: 5%;
-  margin-right: 3%;
+  margin-left: 4%;
+  margin-right: 4%;
 }
 
 .ui.secondary.inverted.menu {
-  background-color: rgb(48, 207, 208);
+  background-color: rgb(45, 61, 133);
+  /*background-color: rgb(51, 51, 86);*/
+  /*background-color: rgb(46, 61, 137);*/
+  /*background-color: rgb(48, 207, 208);*/
 }
 
 .header-section.segment {
@@ -67,32 +85,74 @@
 
 .header-section.segment .container {
   position: relative;
-  top: 50%;
+  top: 60%;
 	transform: translateY(-70%);
 }
 
-.header-section.segment .container img {
+.header-section.segment .container #logo {
+  height: 200px;
+  z-index: 2;
   position: relative;
-  height: 80px;
+  margin-bottom: 100px;
   margin-left: auto;
   margin-right: auto;
 }
 
-.header-section.segment .container h1 {
-  margin-top: 9%;
+.header-section.segment .container #gif {
+  z-index: 1;
+  position: absolute;
+  height: 400px;
+  width: 710px;
+  left: 0;
+  top: -70%;
+  right: 0;
+  bottom: 0;
+  margin: auto; /* presto! */
+}
+
+.header-section.segment .container #first {
+  margin-top: 180px;
+  z-index: 2;
+  position: relative;
   font-weight: 700;
-  font-size: 35px;
+  font-size: 26px;
 }
 
-.header-section.segment .container h2 {
-  font-weight: 600;
-  font-size: 20px;
+.header-section.segment .container #second {
+  position: relative;
+  font-weight: 700;
+  font-size: 50px;
+  color: rgb(48, 207, 208);
+  margin: 30px auto;
 }
 
-.header-section.segment .container h3 {
-  font-weight: 600;
-  font-size: 18px;
+.header-section.segment .container #third {
+  position: relative;
+  font-weight: 700;
+  font-size: 25px;
 }
+
+.header-section.segment .container #date {
+  margin-top: 10%;
+  position: relative;
+  font-weight: 400;
+  font-size: 23px;
+  border: 3px white solid;
+  height: 80px;
+  width: 65%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 22px;
+  /*color: rgb(48, 207, 208);*/
+}
+
+/*.header-section.segment .container h2 {
+  margin-top: 5%;
+  z-index: 2;
+  position: relative;
+  font-weight: 600;
+  font-size: 23px;
+}*/
 
 .main.secondary.menu {
   z-index: 1;
@@ -118,6 +178,11 @@
   margin-top: 10px;
 }
 
+.main.menu .header.item img {
+  display: block;
+  height: 65px;
+}
+
 .main.menu .header.item .ui.button {
   display: none;
 }
@@ -128,7 +193,7 @@
 
 .main.menu .container .item {
   font-weight: 600;
-  font-size: 18px;
+  font-size: 21px;
 }
 
 .main.menu .right.item {
@@ -161,6 +226,16 @@
   position: relative;
 }
 
+.about-section.segment .header.container #eventDate {
+  color: rgb(48, 207, 208);
+  font-size: 25px;
+}
+
+.about-section.segment .header.container #eventVenue {
+  margin-top: 0;
+  font-size: 25px;
+}
+
 .about-section.segment .detail.container {
   position: relative;
   margin-top: 4em;
@@ -175,17 +250,18 @@
 .speakers-section.segment {
   width: 100%;
   margin: 0;
-  padding: 3em;
+  padding: 2em;
 }
 
 .speakers-section.segment .header.container {
-  margin: 0;
+  margin-top: 2em;
   position: relative;
 }
 
 .speakers-section.segment .detail.container {
   position: relative;
   margin-top: 4em;
+  margin-bottom: 2em;
 }
 
 .speakers-section.segment .detail.container .column  {
@@ -209,6 +285,18 @@
 .speakers-section.segment .detail.container .column  h3 {
   z-index: 1;
   position: absolute;
+}
+
+
+.speakers-section.segment .detail.container .column  #janil {
+  text-align: left;
+}
+
+.speakers-section.segment .detail.container .column  #pankaj {
+  font-size: 25px;
+  color: white;
+  bottom: 25%;
+  margin-left: 5%;
 }
 
 .speakers-section.segment .detail.container .column  .name {
@@ -261,7 +349,7 @@
   margin-top: 3em;
 }
 
-.partners-section.segment .secondary.description.container {
+/*.partners-section.segment .secondary.description.container {
   margin: 0;
   position: relative;
   margin-top: 4em;
@@ -275,6 +363,24 @@
 .partners-section.segment .primary.detail.container .column img {
   position: relative;
   height: 4em;
+  margin-left: auto;
+  margin-right: auto;
+}*/
+
+.partners-section.segment .secondary.description.container {
+  margin: 0;
+  position: relative;
+  margin-top: 4em;
+}
+
+.partners-section.segment .primary.detail.container .column  {
+  position: relative;
+  padding: 3%;
+}
+
+.partners-section.segment .primary.detail.container .column img {
+  position: relative;
+  height: 7em;
   margin-left: auto;
   margin-right: auto;
 }
@@ -316,6 +422,109 @@
 .agenda-section.segment .description.container h3 {
   font-weight: 500;
 }
+
+.agenda-section.segment {
+  width: 100%;
+  margin: 0;
+  padding: 3em;
+}
+
+.agenda-section.segment .header.container {
+  margin: 0;
+  position: relative;
+}
+
+.agenda-section.segment .content {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  margin-top: 4em;
+}
+
+.agenda-section.segment .content .column {
+  height: 580px;
+  width: 100%;
+}
+
+.agenda-section.segment .content .column .card {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  vertical-align: middle;
+}
+
+.agenda-section.segment .content .column .card h2 {
+  position: relative;
+  top: 0%;
+  font-weight: 600;
+  font-size: 25px;
+  background-color: rgb(48, 207, 208);
+  color: white;
+  height: 70px;
+  padding-top: 4.5%;
+}
+
+.agenda-section.segment .content .column .card .event {
+  text-align: left;
+  float: left;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+
+.agenda-section.segment .content .column .card .date {
+  position: absolute;
+  display: inline;
+  right: 83%;
+  font-weight: 400;
+  font-size: 14px;
+  color: grey;
+}
+
+.agenda-section.segment .content .column .card .title {
+  position: relative;
+  display: inline;
+  left: 17%;
+  font-weight: 600;
+  font-size: 15px;
+  color: black;
+}
+
+.agenda-section.segment .content .column .card .titleWeb {
+  position: relative;
+  display: inline;
+  left: 17%;
+  font-weight: 600;
+  font-size: 15px;
+  color: black;
+}
+
+.agenda-section.segment .content .column .card .titleMobile {
+  position: relative;
+  display: none;
+  left: 17%;
+  font-weight: 600;
+  font-size: 15px;
+  color: black;
+}
+
+.agenda-section.segment .content .column .card .descripWeb {
+  position: relative;
+  display: inline;
+  left: 17%;
+  font-weight: 400;
+  font-size: 14px;
+  color: black;
+}
+
+.agenda-section.segment .content .column .card .descripMobile {
+  position: relative;
+  display: none;
+  left: 17%;
+  font-weight: 400;
+  font-size: 14px;
+  color: black;
+}
+
 
 .pricing-section.segment {
   width: 100%;
@@ -363,8 +572,8 @@
 .pricing-section.segment .content .column .card h4 {
   position: relative;
   top: 3%;
-  font-weight: 600;
-  font-size: 15px;
+  font-weight: 400;
+  font-size: 17px;
   color: grey;
 }
 
@@ -377,6 +586,19 @@
   margin-right: auto;
   border-radius: 100px;
 }*/
+
+.pricing-section.segment .content .column .card .eb {
+  position: relative;
+  top: 10%;
+}
+
+.pricing-section.segment .content .column .card .eb h3 {
+  position: relative;
+  top: 15%;
+  font-weight: 500;
+  font-size: 18px;
+  color: grey;
+}
 
 .pricing-section.segment .content .column .card .button {
   position: relative;
@@ -417,7 +639,7 @@
   width: 100%;
   padding: 0;
   margin: 0;
-  background-color: rgb(48, 207, 208);
+  background-color: rgb(46, 61, 137);
 }
 
 .venue-section.segment .grid #location .location.text h2 {
@@ -526,6 +748,7 @@
 }
 
 .footer.segment .grid #social .container i {
+  color: white;
   position: relative;
   height: 100%;
   margin: 0 7px;
@@ -533,10 +756,12 @@
   font-weight: 300;
 }
 
+
 .modal {
-    display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
-    z-index: 20; /* Sit on top */
+    display: block;
+    opacity: 0;
+    z-index: -1; /* Sit on top */
     padding-top: 5%; /* Location of the box */
     left: 0;
     top: 0;
@@ -544,7 +769,7 @@
     height: 100%; /* Full height */
     overflow: hidden;; /*Enable scroll if needed */
     background-color: rgb(48, 207, 208); /* Fallback color */
-    /*background-color: rgba(0,0,0,0.4); /* Black w/ opacity */*/
+    transition: 0.3s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
 }
 
 .modal .modal-content {
@@ -556,15 +781,15 @@
 .modal .modal-content i {
     color: #FFFFFF;
     float: right;
-    font-size: 30px;
+    font-size: 28px;
     font-weight: 600;
 }
 
 .modal .modal-content .list {
-    margin-top: 15%;
+    margin-top: 20%;
     color: #FFFFFF;
     text-align: center;
-    font-size: 28px;
+    font-size: 25px;
     font-weight: 700;
 }
 
@@ -572,12 +797,228 @@
     margin: 25px 0;
 }
 
-@media only screen and (max-width: 2000px) {
+@media only screen and (max-width: 2500px) {
+  .ui.inverted.menu .header.item {
+    margin-left: 4%;
+    margin-right: 4%;
+  }
+
   .main.menu .container .item {
     font-weight: 600;
-    font-size: 15px;
+    font-size: 21px;
     padding-left: 10px;
     padding-right: 10px;
+  }
+
+  /*.header-section.segment .container #logo {
+    height: 150px;
+    z-index: 2;
+    position: relative;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .header-section.segment .container #gif {
+    z-index: 1;
+    position: absolute;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .header-section.segment .container h1 {
+    margin-top: 5%;
+    font-weight: 700;
+    font-size: 25px;
+  }
+
+  .header-section.segment .container h2 {
+    margin-top: 5%;
+    font-weight: 600;
+    font-size: 23px;
+  }*/
+
+  .header-section.segment .container #date {
+    margin-top: 5%;
+    font-weight: 600;
+    font-size: 23px;
+    /*color: rgb(48, 207, 208);*/
+  }
+
+  .header-section.segment .container #logo {
+    height: 200px;
+    z-index: 2;
+    position: relative;
+    margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .header-section.segment .container #gif {
+    z-index: 1;
+    position: absolute;
+    /*height: 450px;
+    width: 750px;*/
+    height: 400px;
+    width: 710px;
+    left: 0;
+    top: -70%;
+    right: 0;
+    bottom: 0;
+    margin: auto; /* presto! */
+  }
+
+  .header-section.segment .container #first {
+    margin-top: 180px;
+    z-index: 2;
+    position: relative;
+    font-weight: 700;
+    font-size: 26px;
+  }
+
+  .header-section.segment .container #second {
+    position: relative;
+    font-weight: 700;
+    font-size: 50px;
+    color: rgb(48, 207, 208);
+    margin: 30px auto;
+  }
+
+  .header-section.segment .container #third {
+    position: relative;
+    font-weight: 700;
+    font-size: 25px;
+  }
+
+  .header-section.segment .container #date {
+    margin-top: 10%;
+    position: relative;
+    font-weight: 400;
+    font-size: 23px;
+    border: 3px white solid;
+    height: 80px;
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 22px;
+    /*color: rgb(48, 207, 208);*/
+  }
+}
+
+@media only screen and (max-width: 1500px) {
+  .ui.inverted.menu .header.item {
+    margin-left: 2.5%;
+    margin-right: 0%;
+  }
+
+  .main.menu .container .item {
+    font-weight: 600;
+    font-size: 17px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  /*.header-section.segment .container #logo {
+    height: 100px;
+    z-index: 2;
+    position: relative;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .header-section.segment .container #gif {
+    z-index: 1;
+    position: absolute;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .header-section.segment .container h1 {
+    margin-top: 5%;
+    font-weight: 700;
+    font-size: 23px;
+  }
+
+  .header-section.segment .container h2 {
+    margin-top: 5%;
+    font-weight: 600;
+    font-size: 21px;
+  }
+
+  .header-section.segment .container #date {
+    margin-top: 5%;
+    font-weight: 600;
+    font-size: 21px;
+    color: rgb(48, 207, 208);
+  }*/
+
+  .header-section.segment .container {
+    position: relative;
+    top: 40%;
+  	transform: translateY(-70%);
+  }
+
+  .header-section.segment .container #logo {
+    margin-top: 100px;
+    height: 100px;
+    z-index: 2;
+    position: relative;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .header-section.segment .container #gif {
+    z-index: 1
+    position: absolute;
+    height: 250px;
+    width: 444px;
+    left: 0;
+    top: -75%;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+  }
+
+  .header-section.segment .container #first {
+    margin-top: 90px;
+    z-index: 2;
+    position: relative;
+    font-weight: 700;
+    font-size: 20px;
+  }
+
+  .header-section.segment .container #second {
+    z-index: 2;
+    position: relative;
+    font-weight: 700;
+    font-size: 40px;
+    color: rgb(48, 207, 208);
+    margin: 20px auto;
+  }
+
+  .header-section.segment .container #third {
+    z-index: 2;
+    position: relative;
+    font-weight: 700;
+    font-size: 20px;
+  }
+
+  .header-section.segment .container #date {
+    display: none;
+    margin-top: 5%;
+    position: relative;
+    font-weight: 400;
+    font-size: 18px;
+    border: 3px white solid;
+    height: 50px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 22px;
   }
 }
 
@@ -634,7 +1075,79 @@
   	transform: translateY(-65%);
   }
 
+  .header-section.segment .container {
+    position: relative;
+    top: 40%;
+  	transform: translateY(-70%);
+  }
+
+  .header-section.segment .container #logo {
+    margin-top: 130px;
+    height: 100px;
+    z-index: 2;
+    position: relative;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .header-section.segment .container #gif {
+    z-index: 1
+    position: absolute;
+    height: 230px;
+    width: 408px;
+    left: 0;
+    top: -75%;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+  }
+
+  .header-section.segment .container #first {
+    margin-top: 77px;
+    z-index: 2;
+    position: relative;
+    font-weight: 700;
+    font-size: 20px;
+  }
+
+  .header-section.segment .container #second {
+    z-index: 2;
+    position: relative;
+    font-weight: 700;
+    font-size: 40px;
+    color: rgb(48, 207, 208);
+    margin: 20px auto;
+  }
+
+  .header-section.segment .container #third {
+    z-index: 2;
+    position: relative;
+    font-weight: 700;
+    font-size: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .header-section.segment .container #date {
+    display: none;
+    margin-top: 5%;
+    position: relative;
+    font-weight: 400;
+    font-size: 18px;
+    border: 3px white solid;
+    height: 50px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 22px;
+  }
+
   .main.menu .container {
+    display: none;
+  }
+
+  .main.menu .header.item img {
     display: none;
   }
 
@@ -690,6 +1203,17 @@
     padding-right: 0.5em;
   }
 
+  .speakers-section.segment .header.container {
+    margin-top: 2em;
+    position: relative;
+  }
+
+  .speakers-section.segment .detail.container {
+    position: relative;
+    margin-top: 4em;
+    margin-bottom: 2em;
+  }
+
   .speakers-section.segment .detail.container .column  {
     position: relative;
     height: 100%;
@@ -701,13 +1225,39 @@
     color: white;
     bottom: 20%;
     margin-left: 5%;
+    text-align: left;
   }
+
+  .speakers-section.segment .detail.container .column #janil {
+    font-size: 18px;
+    color: white;
+    margin-left: 5%;
+    text-align: left;
+  }
+
+  .speakers-section.segment .detail.container .column #dione {
+    font-size: 18px;
+    color: white;
+    bottom: 30%;
+    margin-left: 5%;
+    text-align: left;
+  }
+
+  .speakers-section.segment .detail.container .column #jacopo {
+    font-size: 18px;
+    color: white;
+    bottom: 30%;
+    margin-left: 5%;
+    text-align: left;
+  }
+
   .speakers-section.segment .detail.container .column  .title {
     font-size: 13px;
     color: lightgrey;
     font-weight: 600;
     bottom: 10%;
     margin-left: 5%;
+    text-align: left;
   }
   .speakers-section.segment .detail.container .column  .company {
     font-size: 13px;
@@ -744,6 +1294,79 @@
     position: relative;
     padding: 6%;
     margin: 3px 0;
+  }
+
+
+  .agenda-section.segment .content .column .card h2 {
+    position: relative;
+    top: 0%;
+    font-weight: 600;
+    font-size: 22px;
+    background-color: rgb(48, 207, 208);
+    color: white;
+    height: 60px;
+    padding-top: 4.5%;
+  }
+
+  .agenda-section.segment .content .column .card .event {
+    text-align: left;
+    float: left;
+    margin-top: 20px;
+    margin-left: 30px;
+  }
+
+  .agenda-section.segment .content .column .card .date {
+    position: absolute;
+    display: inline;
+    right: 80%;
+    font-weight: 400;
+    font-size: 13px;
+    color: grey;
+  }
+
+  .agenda-section.segment .content .column .card .title {
+    position: relative;
+    display: inline;
+    left: 20%;
+    font-weight: 600;
+    font-size: 14px;
+    color: black;
+  }
+
+  .agenda-section.segment .content .column .card .titleWeb {
+    position: relative;
+    display: none;
+    left: 20%;
+    font-weight: 600;
+    font-size: 14px;
+    color: black;
+  }
+
+  .agenda-section.segment .content .column .card .titleMobile {
+    position: relative;
+    display: inline;
+    left: 20%;
+    font-weight: 600;
+    font-size: 14px;
+    color: black;
+  }
+
+  .agenda-section.segment .content .column .card .descripWeb {
+    position: relative;
+    display: none;
+    left: 20%;
+    font-weight: 400;
+    font-size: 13px;
+    color: black;
+  }
+
+  .agenda-section.segment .content .column .card .descripMobile {
+    position: relative;
+    display: inline;
+    left: 20%;
+    font-weight: 400;
+    font-size: 13px;
+    color: black;
   }
 
   .venue-section.segment .grid #image img  {
