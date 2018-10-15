@@ -293,10 +293,10 @@
 }
 
 .speakers-section.segment .detail.container .column  #pankaj {
-  font-size: 25px;
   color: white;
-  bottom: 25%;
+  bottom: 30%;
   margin-left: 5%;
+  text-align: left;
 }
 
 .speakers-section.segment .detail.container .column  .name {
@@ -304,18 +304,21 @@
   color: white;
   bottom: 20%;
   margin-left: 5%;
+  text-align: left;
 }
 .speakers-section.segment .detail.container .column  .title {
   color: lightgrey;
   font-weight: 600;
   bottom: 11%;
   margin-left: 5%;
+  text-align: left;
 }
 .speakers-section.segment .detail.container .column  .company {
   color: lightgrey;
   font-weight: 600;
   bottom: 3%;
   margin-left: 5%;
+  text-align: left;
 }
 
 
@@ -904,6 +907,7 @@
     padding-top: 22px;
     /*color: rgb(48, 207, 208);*/
   }
+
 }
 
 @media only screen and (max-width: 1500px) {
@@ -1040,6 +1044,7 @@
     color: white;
     bottom: 20%;
     margin-left: 5%;
+    text-align: left;
   }
   .speakers-section.segment .detail.container .column  .title {
     font-size: 12px;
@@ -1047,6 +1052,7 @@
     font-weight: 600;
     bottom: 10%;
     margin-left: 5%;
+    text-align: left;
   }
   .speakers-section.segment .detail.container .column  .company {
     font-size: 12px;
@@ -1421,4 +1427,13 @@
     font-size: 25px;
     font-weight: 200;
   }
+
+  .speakers-section.segment .detail.container .column  #pankaj {
+    bottom:35%;
+  }
+
+  .speakers-section.segment .detail.container .column  #jacopo {
+    bottom: 30%;
+  }
+
 }
