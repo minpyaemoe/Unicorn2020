@@ -443,6 +443,7 @@
   padding: 0;
   position: relative;
   margin-top: 4em;
+  height: 510px;
 }
 
 .agenda-section.segment .content .column {
@@ -1435,6 +1436,14 @@
 
   .speakers-section.segment .detail.container .column  #jacopo {
     bottom: 30%;
+  }
+
+  .agenda-section.segment .content {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    margin-top: 4em;
+    height: 1090px;
   }
 
 }
