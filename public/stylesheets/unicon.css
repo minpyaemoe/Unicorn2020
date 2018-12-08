@@ -474,6 +474,7 @@
   float: left;
   margin-top: 20px;
   margin-left: 30px;
+  padding-right: 6em;
 }
 
 .agenda-section.segment .content .column .card .date {
@@ -492,6 +493,7 @@
   font-weight: 600;
   font-size: 15px;
   color: black;
+  word-wrap: break-word;
 }
 
 .agenda-section.segment .content .column .card .titleWeb {
@@ -501,6 +503,7 @@
   font-weight: 600;
   font-size: 15px;
   color: black;
+  word-wrap: break-word;
 }
 
 .agenda-section.segment .content .column .card .titleMobile {
@@ -510,6 +513,7 @@
   font-weight: 600;
   font-size: 15px;
   color: black;
+  word-wrap: break-word;
 }
 
 .agenda-section.segment .content .column .card .descripWeb {
@@ -1039,7 +1043,7 @@
   .speakers-section.segment .detail.container .column  {
     position: relative;
     height: 100%;
-    padding: 6px;
+    padding: 0px;
   }
   .speakers-section.segment .detail.container .column  .name {
     font-size: 17px;
@@ -1431,7 +1435,7 @@
   }
 
   .speakers-section.segment .detail.container .column  #pankaj {
-    bottom: 25%;
+    bottom: 30%;
   }
 
   .speakers-section.segment .detail.container .column  #jacopo {
