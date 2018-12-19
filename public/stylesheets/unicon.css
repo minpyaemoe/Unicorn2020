@@ -928,6 +928,7 @@
     font-weight: 600;
     margin-left: 5%;
     text-align: left;
+    padding-right: 1em;
   }
 
   .speakers-section.segment .detail.container .column  .info .name {
@@ -1119,6 +1120,7 @@
     font-weight: 600;
     margin-left: 5%;
     text-align: left;
+    padding-right: 1em;
   }
 
   .speakers-section.segment .detail.container .column  .info .name {
