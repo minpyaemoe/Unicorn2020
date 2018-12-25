@@ -92,6 +92,16 @@ $(document)
     $('html, body').css("overflow", "visible");
   });
 
+  $('.modal .modal-content .list #arena').on('click', function () {
+    $('html, body').animate({
+        scrollTop: $(".arena-section.segment").offset().top
+    }, 300);
+        // $('.modal').css("display", "none");
+      $('.modal').css("opacity", "0");
+      $('.modal').css("z-index", "-1");
+      $('html, body').css("overflow", "visible");
+  });
+
   $('.modal .modal-content .list #venue').on('click', function () {
     $('html, body').animate({
       scrollTop: $(".venue-section.segment").offset().top
@@ -142,6 +152,12 @@ $(document)
     }, 300);
   });
 
+  $('.main.menu .container #arena').on('click', function () {
+    $('html, body').animate({
+        scrollTop: $(".arena-section.segment").offset().top + 55
+    }, 300);
+  });
+
   $('.main.menu .container #venue').on('click', function () {
     $('html, body').animate({
       scrollTop: $(".venue-section.segment").offset().top
@@ -154,5 +170,16 @@ $(document)
     }, 300);
   });
 
+  var $form = $('form');
+  var $input = $('input');
+  $form.submit(function () {
+    $.post($(this).attr('action'), $(this).serialize(), function (response) {
+
+    }, 'json');
+      alert('Thanks! We will update you soon.');
+      $input.val('').removeAttr('checked').removeAttr('selected');
+      location.reload();
+      return false;
+  });
 })
 ;

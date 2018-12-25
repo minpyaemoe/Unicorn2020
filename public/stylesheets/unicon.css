@@ -469,7 +469,7 @@
 }
 
 .pricing-section.segment .header.container {
-  margin: 0;
+  margin-bottom: 3em;
   position: relative;
 }
 
@@ -477,7 +477,6 @@
   margin: 0;
   padding: 0;
   position: relative;
-  margin-top: 4em;
 }
 
 .pricing-section.segment .content .column {
@@ -513,15 +512,6 @@
   color: grey;
 }
 
-/*.pricing-section.segment .content .column .card .button {
-  position: relative;
-  top: 40%;
-  height: 50px;
-  width: 120px;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 100px;
-}*/
 
 .pricing-section.segment .content .column .card .eb {
   position: relative;
@@ -542,6 +532,56 @@
   height: 50px;
   font-size: 18px;
   font-weight: 600;
+}
+
+.arena-section.segment {
+  width: 100%;
+  margin: 0;
+  padding: 3em;
+}
+
+.arena-section.segment .arena.container {
+  position: relative;
+}
+
+.arena-section.segment .header.container {
+  margin-bottom: 3em;
+}
+
+.arena-section.segment .arena.container img{
+  width: 100%;
+}
+
+.arena-section.segment .arena.container form{
+  z-index: 1;
+  position: absolute;
+  left: 0;
+  top: 80%;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.arena-section.segment .arena.container h1{
+  z-index: 1;
+  position: absolute;
+  left: 0;
+  top: 59%;
+  right: 0;
+  bottom: 0;
+  color: #FFFFFF;
+  margin: auto;
+}
+
+.arena-section.segment .arena.container h2{
+  z-index: 1;
+  position: absolute;
+  left: 0;
+  top: 73%;
+  right: 0;
+  bottom: 0;
+  color: #FFFFFF;
+  margin: auto;
 }
 
 .venue-section.segment {
@@ -1091,78 +1131,13 @@
     padding-right: 0.5em;
   }
 
-  .speakers-section.segment .header.container {
-    margin-top: 2em;
-    position: relative;
-  }
-
-  .speakers-section.segment .detail.container {
-    position: relative;
-    margin-top: 4em;
-    margin-bottom: 2em;
-  }
-
-  .speakers-section.segment .detail.container .column  {
-    position: relative;
-    height: 100%;
-    padding: 4px;
-  }
-
-  .speakers-section.segment .detail.container .column  h3 {
-    z-index: 1;
-    position: absolute;
-    bottom: 0%;
-  }
-
-  .speakers-section.segment .detail.container .column  .info {
-    font-size: 13px;
-    color: lightgrey;
-    font-weight: 600;
-    margin-left: 5%;
-    text-align: left;
-    padding-right: 1em;
-  }
-
-  .speakers-section.segment .detail.container .column  .info .name {
-    font-size: 18px;
-    color: white;
-    margin-left: 0.3%;
-    margin-bottom: -0.75em;
-  }
-
-  .speakers-section.segment .detail.container .column #no_warp{
-    white-space: nowrap;
-  }
-
-  .speakers-section.segment .detail.container .column  i {
-    z-index: 1;
-    position: absolute;
-    top: 10%;
-    right: 8%;
-    font-size: 1.5em;
-    color: white;
-  }
-
-  .partners-section.segment .description.container {
+  .agenda-section.segment .content {
     margin: 0;
+    padding: 0;
     position: relative;
     margin-top: 4em;
-    padding-left: 1.5em;
-    padding-right: 1.5em;
+    height: 1090px;
   }
-
-  .partners-section.segment .primary.detail.container .column  {
-    position: relative;
-    padding: 6%;
-    margin: 9px 0;
-  }
-
-  .partners-section.segment .secondary.detail.container .column  {
-    position: relative;
-    padding: 6%;
-    margin: 3px 0;
-  }
-
 
   .agenda-section.segment .content .column .card h2 {
     position: relative;
@@ -1236,6 +1211,87 @@
     color: black;
   }
 
+  .speakers-section.segment .header.container {
+    margin-top: 2em;
+    position: relative;
+  }
+
+  .speakers-section.segment .detail.container {
+    position: relative;
+    margin-top: 4em;
+    margin-bottom: 2em;
+  }
+
+  .speakers-section.segment .detail.container .column  {
+    position: relative;
+    height: 100%;
+    padding: 4px;
+  }
+
+  .speakers-section.segment .detail.container .column  h3 {
+    z-index: 1;
+    position: absolute;
+    bottom: 0%;
+  }
+
+  .speakers-section.segment .detail.container .column  .info {
+    font-size: 13px;
+    color: lightgrey;
+    font-weight: 600;
+    margin-left: 5%;
+    text-align: left;
+    padding-right: 1em;
+  }
+
+  .speakers-section.segment .detail.container .column  .info .name {
+    font-size: 18px;
+    color: white;
+    margin-left: 0.3%;
+    margin-bottom: -0.75em;
+  }
+
+  .speakers-section.segment .detail.container .column #no_warp{
+    white-space: nowrap;
+  }
+
+  .speakers-section.segment .detail.container .column  i {
+    z-index: 1;
+    position: absolute;
+    top: 10%;
+    right: 8%;
+    font-size: 1.5em;
+    color: white;
+  }
+
+  .partners-section.segment .description.container {
+    margin: 0;
+    position: relative;
+    margin-top: 4em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+  }
+
+  .partners-section.segment .primary.detail.container .column  {
+    position: relative;
+    padding: 6%;
+    margin: 9px 0;
+  }
+
+  .partners-section.segment .secondary.detail.container .column  {
+    position: relative;
+    padding: 6%;
+    margin: 3px 0;
+  }
+
+  .arena-section.segment .arena.container h1{
+    font-size: 15px;
+  }
+
+  .arena-section.segment .arena.container h2{
+    font-size: 14px;
+    top: 69%;
+  }
+
   .venue-section.segment .grid #image img  {
     position: relative;
     height: 300px;
@@ -1287,14 +1343,6 @@
   .footer.segment .grid #social .container i {
     font-size: 25px;
     font-weight: 200;
-  }
-
-  .agenda-section.segment .content {
-    margin: 0;
-    padding: 0;
-    position: relative;
-    margin-top: 4em;
-    height: 1090px;
   }
 
 }

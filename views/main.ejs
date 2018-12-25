@@ -35,12 +35,6 @@
                  src="https://www.facebook.com/tr?id=748463218657549&ev=PageView&noscript=1"
     /></noscript>
   <!-- End Facebook Pixel Code -->
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-    <script src="dist/semantic.min.js"></script>
-    <script src="scripts/transition.js"></script>
-    <script src="scripts/visibility.js"></script>
-    <script src="scripts/event.js"></script>
-    <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/18e5e8207c24a2ac3d1322dfd/b0b2af28ab12eb69871c85fc6.js");</script>
 
   </head>
 
@@ -68,8 +62,6 @@
   <div class="ui borderless center aligned inverted main secondary menu">
     <div href="#" class="header item">
       <img class="ui image" src="/speakers_images/uniconlogo2019.png">
-      <!--<img class="ui image" src="/speakers_images/uniconLogo1.png">-->
-      <!-- <a href="https://www.eventbrite.sg/e/unicon-2018-tickets-39138383960" class="ui button">Register</a> -->
     </div>
     <div class="ui center aligned text container">
       <a class="item" id="about" href="#about">About</a>
@@ -77,6 +69,7 @@
       <a class="item" id="speakers" href="#speakers">Speakers</a>
       <a class="item" id="partners" href="#partners">Partners</a>
       <a class="item" id="pricing" href="#pricing">Pricing</a>
+      <a class="item" id="arena" href="#arena">Arena</a>
       <a class="item" id="venue" href="#venue">Details</a>
       <a class="item" id="contact">Contact</a>
     </div>
@@ -95,6 +88,7 @@
         <div class="item" id="speakers">Speakers</div>
         <div class="item" id="partners">Partners</div>
         <div class="item" id="pricing">Pricing</div>
+        <div class="items" id="arena">Arena</div>
         <div class="item" id="venue">Venue</div>
         <div class="item" id="contact">Contact</div>
       </div>
@@ -497,7 +491,10 @@
           <h4>For All Current Students </h4>
           <h1>S$50</h1>
           <a href="https://www.eventbrite.sg/e/unicon-2019-asias-craziest-student-entrepreneurship-conference-tickets-51752259401?aff=ebdssbdestsearch" class="eb"><h3>Early bird</h3></a>
-          <a href="https://www.eventbrite.sg/e/unicon-2019-asias-craziest-student-entrepreneurship-conference-tickets-51752259401?aff=ebdssbdestsearch" class="ui button" id="register">Register Now</a>
+          <a class="ui animated vertical button"  href="https://www.eventbrite.sg/e/unicon-2019-asias-craziest-student-entrepreneurship-conference-tickets-51752259401?aff=ebdssbdestsearch" tabindex="0">
+            <div class="visible content"><h2>Register Now</h2></div>
+            <div class="hidden content"><i class="shopping cart icon"></i></div>
+          </a>
         </div>
       </div>
       <div class="sixteen wide mobile five wide tablet five wide computer column">
@@ -506,7 +503,10 @@
           <h4>Class of 2016 Onwards</h4>
           <h1>S$100</h1>
           <a href="https://www.eventbrite.sg/e/unicon-2019-asias-craziest-student-entrepreneurship-conference-tickets-51752259401?aff=ebdssbdestsearch" class="eb"><h3>Early bird</h3></a>
-          <a href="https://www.eventbrite.sg/e/unicon-2019-asias-craziest-student-entrepreneurship-conference-tickets-51752259401?aff=ebdssbdestsearch" class="ui button" id="register">Register Now</a>
+          <a class="ui animated vertical button" href="https://www.eventbrite.sg/e/unicon-2019-asias-craziest-student-entrepreneurship-conference-tickets-51752259401?aff=ebdssbdestsearch">
+            <div class="visible content"><h2>Register Now</h2></div>
+            <div class="hidden content"><i class="shopping cart icon"></i></div>
+          </a>
         </div>
       </div>
       <div class="sixteen wide mobile five wide tablet five wide computer column">
@@ -515,11 +515,33 @@
           <h4>Open to all working adults</h4>
           <h1>S$140</h1>
           <a href="https://www.eventbrite.sg/e/unicon-2019-asias-craziest-student-entrepreneurship-conference-tickets-51752259401?aff=ebdssbdestsearch" class="eb"><h3>Early bird</h3></a>
-          <a href="https://www.eventbrite.sg/e/unicon-2019-asias-craziest-student-entrepreneurship-conference-tickets-51752259401?aff=ebdssbdestsearch" class="ui button" id="register">Register Now</a>
+          <a class="ui animated vertical button" href="https://www.eventbrite.sg/e/unicon-2019-asias-craziest-student-entrepreneurship-conference-tickets-51752259401?aff=ebdssbdestsearch">
+            <div class="visible content"><h2>Register Now</h2></div>
+            <div class="hidden content"><i class="shopping cart icon"></i></div>
+          </a>
         </div>
       </div>
     </div>
 
+  </div>
+  <div class="ui vertical arena-section segment" id="arena">
+      <div class="ui text header container">
+          <h1 class="ui header">Arena</h1>
+      </div>
+      <div class="ui center aligned arena container">
+          <img class="ui rounded image" src="/speakers_images/arena.png">
+          <h1 class="ui header">BRINGING YOUR START-UP IDEAS TO LIFE</h1>
+          <h2 class="ui header">Leave your email here to find out more!</h2>
+          <form id="gform" method="POST" action="https://script.google.com/macros/s/AKfycbyny62rZrrjztvQEVGgN4MKsRGinqNBbzkOpmAtUnFensnKYoI/exec">
+              <div class="ui action input">
+                  <input type="email" required="required" name="Email" placeholder="Email">
+                    <button class="ui animated button" type="submit">
+                      <div class="visible content">Apply</div>
+                      <div class="hidden content"><i class="check icon"></i></div>
+                    </button>
+              </div>
+          </form>
+      </div>
   </div>
 
   <div class="ui vertical venue-section segment" id="venue">
@@ -568,7 +590,10 @@
       <form id="gform" method="POST" action="https://script.google.com/a/nes.org.sg/macros/s/AKfycbxLtkCBQcdIGnu4W9KmoTJCncyCwQhi3tENyxRfPmiV00pjl1Bg/exec">
         <div class="ui action input">
           <input type="email" required="required" name="email" placeholder="Email">
-          <button class="ui button" type="submit">Apply</button>
+          <button class="ui animated button" type="submit">
+            <div class="visible content">Apply</div>
+            <div class="hidden content"><i class="check icon"></i></div>
+          </button>
         </div>
       </form>
       <div style="display:none;" id="thankyou_message">
@@ -607,7 +632,12 @@
 
 </div>
 <script data-cfasync="false" type="text/javascript" src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"></script>
-
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="dist/semantic.min.js"></script>
+    <script src="scripts/transition.js"></script>
+    <script src="scripts/visibility.js"></script>
+    <script src="scripts/event.js"></script>
+    <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/18e5e8207c24a2ac3d1322dfd/b0b2af28ab12eb69871c85fc6.js");</script>
 </body>
 
 </html>
