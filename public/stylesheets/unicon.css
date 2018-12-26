@@ -338,39 +338,27 @@
   padding: 3em;
 }
 
-.agenda-section.segment .header.container {
-  margin: 0;
-  position: relative;
-}
-
 .agenda-section.segment .description.container {
   margin: 0;
   position: relative;
   margin-top: 0em;
-
 }
 
 .agenda-section.segment .description.container h3 {
   font-weight: 500;
 }
 
-.agenda-section.segment {
-  width: 100%;
-  margin: 0;
-  padding: 3em;
-}
-
 .agenda-section.segment .header.container {
-  margin: 0;
+  margin-bottom: 4em;
   position: relative;
+
 }
 
 .agenda-section.segment .content {
   margin: 0;
   padding: 0;
   position: relative;
-  margin-top: 4em;
-  height: 510px;
+  height: auto;
 }
 
 .agenda-section.segment .content .column {
@@ -733,7 +721,7 @@
 }
 
 
-.modal {
+#side_bar {
     position: fixed; /* Stay in place */
     display: block;
     opacity: 0;
@@ -748,20 +736,20 @@
     transition: 0.3s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
 }
 
-.modal .modal-content {
+#side_bar .modal-content {
     margin: auto;
     padding: 10px;
     width: 80%;
 }
 
-.modal .modal-content i {
+#side_bar .modal-content i {
     color: #FFFFFF;
     float: right;
     font-size: 28px;
     font-weight: 600;
 }
 
-.modal .modal-content .list {
+#side_bar .modal-content .list {
     margin-top: 20%;
     color: #FFFFFF;
     text-align: center;
@@ -769,8 +757,24 @@
     font-weight: 700;
 }
 
-.modal .modal-content .list .item {
+#side_bar .modal-content .list .item {
     margin: 25px 0;
+}
+
+#promo {
+  opacity: 0;
+  display: inline-block;
+  vertical-align: center;
+  horiz-align: center;
+  border: 6px solid rgb(48, 207, 208);
+  border-radius: 10px;
+}
+
+#promo_image {
+  max-width: 100%;
+  max-height: 100%;
+  margin-bottom: -0.4em;
+  margin-right: -0.4em;
 }
 
 @media only screen and (max-width: 2500px) {
