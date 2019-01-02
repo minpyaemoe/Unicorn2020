@@ -716,6 +716,10 @@
   margin-top: 1em;
 }
 
+.footer.segment .grid #comment .container img {
+  width: 20%;
+}
+
 .footer.segment .grid #social .container {
   position: relative;
   width: 150px;
