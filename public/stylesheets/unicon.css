@@ -1,3 +1,8 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
 .ui.button {
   background-color: rgb(48, 207, 208);
   color: white;
@@ -36,6 +41,7 @@
 .ui.inverted.footer.segment, .ui.primary.inverted.segment {
     background: none;
     background-color: rgb(45, 61, 133);
+    margin-bottom: -10%;
 }
 
 .ui.inverted.menu .header.item {
