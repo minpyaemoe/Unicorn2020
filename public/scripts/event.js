@@ -152,13 +152,9 @@ $(document)
     }, 300);
   });
 
-  // $('.pricing-section.segment .content .column .card .eb h3').mouseover(function(){
-  //     $('#promo').modal({transition: 'drop'}).modal('show');
-  // })
-
-    $('#early_bird').mouseover(function(){
-        $('#promo').modal({transition: 'drop'}).modal('show');
-    })
+  $('.pricing-section.segment .content .column .card .eb h3').mouseover(function(){
+    $('#promo').modal({transition: 'drop'}).modal('show');
+  })
 
   var $form = $('form');
   var $input = $('input');
