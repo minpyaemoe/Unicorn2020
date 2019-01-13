@@ -554,20 +554,6 @@ body {
   margin-bottom: 3em;
 }
 
-.arena-section.segment .arena.container img{
-  width: 100%;
-}
-
-.arena-section.segment .arena.container form{
-  z-index: 1;
-  position: absolute;
-  left: 0;
-  top: 80%;
-  right: 0;
-  bottom: 0;
-  margin: auto;
-}
-
 .arena-section.segment .arena.container h1{
   z-index: 1;
   position: absolute;
@@ -579,15 +565,70 @@ body {
   margin: auto;
 }
 
-.arena-section.segment .arena.container h2{
+.arena-section.segment .arena.container #arena_next{
   z-index: 1;
   position: absolute;
   left: 0;
-  top: 73%;
+  top: 69%;
   right: 0;
   bottom: 0;
+  margin: auto;
+  width: 165px;
+  height: 48px;
+  text-align: center;
+}
+
+.arena-section.segment .arena.container h2{
   color: #FFFFFF;
   margin: auto;
+  text-align: center;
+  horiz-align: center;
+  position: center;
+}
+
+.arena-section.segment .arena.container #arena_application_form_section{
+  height: fit-content;
+  border-radius: 12px;
+  border: 6px solid rgb(48, 207, 208);
+}
+
+.arena-section.segment .arena.container .shape .sides .side h2{
+  color: #FFFFFF;
+  margin: auto;
+  text-align: left;
+  font-size: 18px;
+}
+
+.arena-section.segment .arena.container .shape .sides .side form{
+  z-index: 99;
+  position: absolute;
+  left: 15%;
+  top: 1.5%;
+  margin: auto;
+  width: 70%;
+  text-align: left;
+}
+
+.arena-section.segment .arena.container .shape .sides .side form h1{
+  text-align: center;
+  color: #FFFFFF;
+  position: relative;
+}
+
+
+.arena-section.segment .arena.container .shape .sides .side input{
+  font-size: 16px;
+  text-align: left;
+}
+
+.arena-section.segment .arena.container .shape .sides .side textarea{
+  font-size: 18px;
+}
+
+#words_count{
+  color: #ffffff;
+  font-size: 18px;
+  alignment: left;
 }
 
 .venue-section.segment {
@@ -966,6 +1007,10 @@ body {
     height: 87%;
     vertical-align: middle;
   }
+
+  .arena-section.segment .arena.container #arena_application_form_section img{
+      height: 1000px;
+  }
 }
 
 @media only screen and (max-width: 1000px) {
@@ -1017,6 +1062,9 @@ body {
     color: white;
   }
 
+  .arena-section.segment .arena.container #arena_application_form_section img{
+    height: 1100px;
+  }
 
 
 }
@@ -1315,7 +1363,18 @@ body {
 
   .arena-section.segment .arena.container h2{
     font-size: 14px;
-    top: 69%;
+  }
+
+  .arena-section.segment .arena.container .shape .sides .side form{
+    top: 6%;
+  }
+
+  .arena-section.segment .arena.container #arena_application_form_section img{
+    height: 1200px;
+  }
+
+  .arena-section.segment .arena.container #app_form_header{
+    font-size: 20px;
   }
 
   .venue-section.segment .grid #image img  {

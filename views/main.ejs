@@ -533,23 +533,81 @@
 
   </div>
   <div class="ui vertical arena-section segment" id="arena">
-      <div class="ui text header container">
-          <h1 class="ui header">Arena</h1>
-      </div>
-      <div class="ui center aligned arena container">
-          <img class="ui rounded image" src="/speakers_images/arena.png">
-          <h1 class="ui header">BRINGING YOUR START-UP IDEAS TO LIFE</h1>
-          <h2 class="ui header">Leave your email here to find out more!</h2>
-          <form id="gform" method="POST" action="https://script.google.com/macros/s/AKfycbyny62rZrrjztvQEVGgN4MKsRGinqNBbzkOpmAtUnFensnKYoI/exec">
-              <div class="ui action input">
-                  <input type="email" required="required" name="Email" placeholder="Email">
-                    <button class="ui animated button" type="submit">
-                      <div class="visible content">Apply</div>
-                      <div class="hidden content"><i class="check icon"></i></div>
-                    </button>
+    <div class="ui text header container">
+      <h1 class="ui header">Arena</h1>
+    </div>
+    <div class="ui center aligned arena container">
+      <div class="ui shape">
+        <div class="sides">
+          <div class="side active">
+            <div class="centered image">
+              <img class="ui rounded image" src="/speakers_images/arena.jpg">
+              <h1 class="ui header">BRINGING YOUR START-UP IDEAS TO LIFE</h1>
+              <div class="ui animated button" id="arena_next">
+                <div class="visible content"><h2>Register Now</h2></div>
+                <div class="hidden content"><i class="right arrow icon"></i></div>
               </div>
-          </form>
+            </div>
+          </div>
+          <div class="side" id="arena_application_form_section">
+            <div class="centered image">
+              <img class="ui rounded image" src="/speakers_images/arena_form.jpg">
+              <form class="ui form" id="arena_form" method="POST" action="https://script.google.com/macros/s/AKfycbxvPb2hdPD1D-JfLbbE-y8y1xbiPBuLhjaGH9W30N9xQq_Aa4Q/exec">
+                <label><h1 class="ui header" id="app_form_header">ARENA APPLICATION FORM</h1></label>
+                <br>
+                <div class="field">
+                  <label><h2>Name of Applicant(s)</h2></label>
+                  <input type="text" name="applicant_name" placeholder="Name(s)" required="required">
+                </div>
+                <div class="field">
+                  <label><h2>Name of Start-up</h2></label>
+                  <input type="text" name="startup_name" placeholder="Startup Name" required="required">
+                </div>
+                <div class="field">
+                  <label><h2>Tell us what your start-up in 100 words</h2></label>
+                  <textarea name="startup_details" placeholder="Type Here" required="required" rows="5" id="start_up_details" maxlength="1000"></textarea>
+                </div>
+                <label><span id="words_count">Words count: 0</span></label>
+                <br>
+                <br>
+                <div class="field">
+                  <label><h2>Contact Email</h2></label>
+                  <input type="email" name="contact_email" placeholder="someone@example.com" required="required">
+                </div>
+                <br>
+                <label><h2>Declarations:</h2></label>
+                <br>
+                <div class="inline field">
+                  <div class="ui checkbox">
+                    <input type="checkbox" tabindex="0" class="hidden" required="required">
+                    <label><h2>The start-up has less than S$50,000 of external funding.</h2></label>
+                  </div>
+                </div>
+                <div class="inline field">
+                  <div class="ui checkbox">
+                    <input type="checkbox" tabindex="0" class="hidden" required="required">
+                    <label><h2>The founder, or one of the co-founders, are currently either <br>(i) an undergraduate, <br>(ii) student in tertiary institutions, and/or recent graduate (Class of 2016 onwards).</h2></label>
+                  </div>
+                </div>
+                <div class="inline field">
+                  <div class="ui checkbox">
+                    <input type="checkbox" tabindex="0" class="hidden" required="required">
+                    <label><h2>Available to pitch on 11 February 2019.</h2></label>
+                  </div>
+                </div>
+                <button class="ui animated button" id="submit_arena_form" type="submit">
+                  <div class="visible content"><h2>Submit</h2></div>
+                  <div class="hidden content"><i class="large envelope icon"></i></div>
+                </button>
+                <br>
+                <br>
+                <label><h2>IMPORTANT NOTE:<br> Send your deck file to <a href="mailto:unicon@nes.org.sg?Subject=Arena Deck for" target="_top">unicon@nes.org.sg </a> and <a href="mailto:Robin.lim@u.nus.edu?Subject=Arena Deck for" target="_top">Robin.lim@u.nus.edu </a>within 1 day after your application form is submitted. (Please ensure that your name and your Start-up name are included in your deck file name.)</h2></label>
+              </form>
+            </div>
+          </div>
+        </div>
       </div>
+    </div>
   </div>
 
   <div class="ui vertical venue-section segment" id="venue">

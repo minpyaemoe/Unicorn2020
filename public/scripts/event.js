@@ -5,6 +5,9 @@ $(document)
     type: 'fixed',
   });
 
+  $('.shape').shape();
+  $('.ui.checkbox').checkbox();
+
   $('#register').on('click', function () {
     fbq('track', 'CompleteRegistration');
   });
@@ -156,7 +159,7 @@ $(document)
     $('#promo').modal({transition: 'drop'}).modal('show');
   })
 
-  var $form = $('form');
+  var $form = $('#gform');
   var $input = $('input');
   $form.submit(function () {
     $.post($(this).attr('action'), $(this).serialize(), function (response) {
@@ -166,6 +169,34 @@ $(document)
       $input.val('').removeAttr('checked').removeAttr('selected');
       location.reload(true);
       return false;
+  });
+
+  var $arena_form = $('#arena_form');
+  $arena_form.submit(function () {
+    $.post($(this).attr('action'), $(this).serialize(), function (response) {
+
+    }, 'json');
+    alert('Arena Application form submitted. Do not forget to send your Deck File.');
+    $input.val('').removeAttr('checked').removeAttr('selected');
+    location.reload(true);
+    return false;
+  });
+
+  $('#arena_next').on('click', function () {
+      $('#arena_next').hide();
+      $('.shape').shape('flip right');
+  });
+
+  $('#start_up_details').bind('input propertychange', function () {
+      var details = this.value;
+      if(details === ""){
+          $('#words_count').text("Words count: 0");
+      }else{
+          details = details.replace(/(^\s*)|(\s*$)/gi,"");
+          details = details.replace(/[ ]{2,}/gi," ");
+          details = details.replace(/\n /,"\n");
+          $('#words_count').text("Words count: " + details.split(' ').length);
+      }
   });
 
   setTimeout(function(){
