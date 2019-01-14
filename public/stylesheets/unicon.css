@@ -1387,6 +1387,10 @@ body {
     font-size: 14px;
   }
 
+  .arena-section.segment .arena.container #arena_next{
+      top: 85%;
+  }
+
   .arena-section.segment .arena.container .shape .sides .side form{
     top: 3%;
   }
