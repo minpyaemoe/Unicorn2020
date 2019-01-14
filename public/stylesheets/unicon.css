@@ -565,6 +565,19 @@ body {
   margin: auto;
 }
 
+.arena-section.segment .arena.container #eligibility_criteria{
+  z-index: 1;
+  position: absolute;
+  left: 0;
+  top: 49%;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  width: 165px;
+  height: 48px;
+  text-align: center;
+}
+
 .arena-section.segment .arena.container #arena_next{
   z-index: 1;
   position: absolute;
@@ -595,8 +608,12 @@ body {
 .arena-section.segment .arena.container .shape .sides .side h2{
   color: #FFFFFF;
   margin: auto;
-  text-align: left;
+  text-align: center;
   font-size: 18px;
+}
+
+.arena-section.segment .arena.container .shape .sides .side form h2{
+    text-align: left;
 }
 
 .arena-section.segment .arena.container .shape .sides .side form{
@@ -826,19 +843,24 @@ body {
 
 #promo {
   opacity: 0;
-  display: inline-block;
-  vertical-align: center;
-  horiz-align: center;
-  border: 6px solid rgb(48, 207, 208);
-  border-radius: 10px;
+  /*display: inline-block;*/
+  /*vertical-align: center;*/
+  /*horiz-align: center;*/
+  /*border: 6px solid rgb(48, 207, 208);*/
+  /*border-radius: 10px;*/
+  /*background-color: darkgray;*/
 }
 
-#promo_image {
-  max-width: 100%;
-  max-height: 100%;
-  margin-bottom: -0.4em;
-  margin-right: -0.4em;
-}
+
+
+
+
+/*#promo_image {*/
+  /*max-width: 100%;*/
+  /*max-height: 100%;*/
+  /*margin-bottom: -0.4em;*/
+  /*margin-right: -0.4em;*/
+/*}*/
 
 @media only screen and (max-width: 2500px) {
   .ui.inverted.menu .header.item {
@@ -1370,7 +1392,7 @@ body {
   }
 
   .arena-section.segment .arena.container #arena_application_form_section img{
-    height: 1200px;
+    height: 1350px;
   }
 
   .arena-section.segment .arena.container #app_form_header{

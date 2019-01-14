@@ -155,9 +155,9 @@ $(document)
     }, 300);
   });
 
-  $('.pricing-section.segment .content .column .card .eb h3').mouseover(function(){
-    $('#promo').modal({transition: 'drop'}).modal('show');
-  })
+  // $('.pricing-section.segment .content .column .card .eb h3').mouseover(function(){
+  //   $('#promo').modal({transition: 'drop'}).modal('show');
+  // })
 
   var $form = $('#gform');
   var $input = $('input');
@@ -184,7 +184,13 @@ $(document)
 
   $('#arena_next').on('click', function () {
       $('#arena_next').hide();
+      $('#eligibility_criteria').hide();
       $('.shape').shape('flip right');
+  });
+
+  $('#eligibility_criteria').on('click', function () {
+      $('#promo').css("opacity","1");
+      $('#promo').modal({transition: 'drop'}).modal('show');
   });
 
   $('#start_up_details').bind('input propertychange', function () {
@@ -199,11 +205,10 @@ $(document)
       }
   });
 
-  setTimeout(function(){
-    $('#promo').css("opacity","1");
-    $('#promo').modal({transition: 'drop'}).modal('show');
-    }, 1300);
+  // setTimeout(function(){
+  //   $('#promo').css("opacity","1");
+  //   $('#promo').modal({transition: 'drop'}).modal('show');
+  //   }, 1300);
 
-})
-;
+});
 
