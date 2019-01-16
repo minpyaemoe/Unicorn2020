@@ -205,16 +205,15 @@ $(document)
       }
   });
 
-  if(window.location.href === "http://www.unicon2019.com/#arena"){
-    $('html, body').animate({
-        scrollTop: $(".arena-section.segment").offset().top
-    }, 300);
-  }
 
-  // setTimeout(function(){
-  //   $('#promo').css("opacity","1");
-  //   $('#promo').modal({transition: 'drop'}).modal('show');
-  //   }, 1300);
+
+  setTimeout(function(){
+      if(window.location.href === "http://www.unicon2019.com/#arena"){
+          $('html, body').animate({
+              scrollTop: $(".arena-section.segment").offset().top
+          }, 300);
+      }else{}
+    }, 1300);
 
 });
 
