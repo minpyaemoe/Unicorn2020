@@ -188,10 +188,10 @@ $(document)
       $('.shape').shape('flip right');
   });
 
-  $('#eligibility_criteria').on('click', function () {
-      $('#promo').css("opacity","1");
-      $('#promo').modal({transition: 'drop'}).modal('show');
-  });
+  // $('#eligibility_criteria').on('click', function () {
+  //     $('#promo').css("opacity","1");
+  //     $('#promo').modal({transition: 'drop'}).modal('show');
+  // });
 
   $('#start_up_details').bind('input propertychange', function () {
       var details = this.value;
