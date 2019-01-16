@@ -211,9 +211,9 @@ $(document)
       if(window.location.href === "http://www.unicon2019.com/#arena"){
           $('html, body').animate({
               scrollTop: $(".arena-section.segment").offset().top
-          }, 300);
+          }, 500);
       }else{}
-    }, 1300);
+    }, 2000);
 
 });
 
