@@ -1097,6 +1097,9 @@ body {
 }
 
 @media only screen and (max-width: 700px) {
+  .header-section.segment{
+    zoom: 100%;
+  }
 
   .header-section.segment .container {
     position: relative;
