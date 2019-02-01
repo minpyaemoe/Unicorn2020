@@ -489,7 +489,7 @@ body {
 }
 
 .pricing-section.segment .content .column {
-  height: 350px;
+  height: 400px;
   width: 100%;
 }
 
@@ -1344,7 +1344,7 @@ body {
     font-weight: 600;
     margin-left: 5%;
     text-align: left;
-    padding-right: 1em;
+    padding-right: 0;
   }
 
   .speakers-section.segment .detail.container .column  .info .name {

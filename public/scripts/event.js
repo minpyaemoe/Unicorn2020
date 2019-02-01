@@ -39,13 +39,23 @@ $(document)
 
   $('.modal .modal-content .list #speakers').on('click', function () {
     $('html, body').animate({
-      scrollTop: $(".speakers-section.segment").offset().top - 80
+      scrollTop: $(".speakers-section.segment").offset().top - 60
     }, 300);
     // $('.modal').css("display", "none");
     $('.modal').css("opacity", "0");
     $('.modal').css("z-index", "-1");
     $('html, body').css("overflow", "visible");
   });
+
+  $('.modal .modal-content .list #pricing').on('click', function () {
+    $('html, body').animate({
+        scrollTop: $(".pricing-section.segment").offset().top - 90
+    }, 300);
+    // $('.modal').css("display", "none");
+      $('.modal').css("opacity", "0");
+      $('.modal').css("z-index", "-1");
+      $('html, body').css("overflow", "visible");
+    });
 
   $('.modal .modal-content .list #partners').on('click', function () {
     $('html, body').animate({
@@ -67,15 +77,6 @@ $(document)
     $('html, body').css("overflow", "visible");
   });
 
-  $('.modal .modal-content .list #pricing').on('click', function () {
-    $('html, body').animate({
-      scrollTop: $(".pricing-section.segment").offset().top - 90
-    }, 300);
-    // $('.modal').css("display", "none");
-    $('.modal').css("opacity", "0");
-    $('.modal').css("z-index", "-1");
-    $('html, body').css("overflow", "visible");
-  });
 
   $('.modal .modal-content .list #arena').on('click', function () {
     $('html, body').animate({
@@ -115,7 +116,13 @@ $(document)
 
   $('.main.menu .container #speakers').on('click', function () {
     $('html, body').animate({
-      scrollTop: $(".speakers-section.segment").offset().top - 130
+      scrollTop: $(".speakers-section.segment").offset().top - 110
+    }, 300);
+  });
+
+  $('.main.menu .container #pricing').on('click', function () {
+    $('html, body').animate({
+        scrollTop: $(".pricing-section.segment").offset().top - 130
     }, 300);
   });
 
@@ -131,11 +138,6 @@ $(document)
     }, 300);
   });
 
-  $('.main.menu .container #pricing').on('click', function () {
-    $('html, body').animate({
-      scrollTop: $(".pricing-section.segment").offset().top - 130
-    }, 300);
-  });
 
   $('.main.menu .container #arena').on('click', function () {
     $('html, body').animate({
