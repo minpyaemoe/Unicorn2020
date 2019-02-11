@@ -568,6 +568,12 @@ body {
   margin: auto;
 }
 
+.arena-section.segment .arena.container #arena_closed{
+  font-size: 38px;
+  top: 75%;
+  color: rgb(48, 207, 208);
+}
+
 .arena-section.segment .arena.container #eligibility_criteria{
   z-index: 1;
   width: 200px;
@@ -1389,6 +1395,10 @@ body {
 
   .arena-section.segment .arena.container h1{
     font-size: 15px;
+  }
+
+  .arena-section.segment .arena.container #arena_closed{
+    font-size: 20px;
   }
 
   .arena-section.segment .arena.container h2{
