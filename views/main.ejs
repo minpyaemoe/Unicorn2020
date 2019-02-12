@@ -536,16 +536,24 @@
     </div>
 
     <div class="ui text center aligned update container">
-      <h3>Fill up the application </h3>
-      <form id="gform" method="POST" action="https://script.google.com/a/nes.org.sg/macros/s/AKfycbxLtkCBQcdIGnu4W9KmoTJCncyCwQhi3tENyxRfPmiV00pjl1Bg/exec">
-
-        <div class="ui action input">
-          <input type="email" required="required" name="email" placeholder="Email">
-          <button class="ui animated button" type="submit">
-            <div class="visible content">Apply</div>
-            <div class="hidden content"><i class="check icon"></i></div>
-          </button>
+      <h3>Fill up the application form below!</h3>
+      <br>
+      <form id="gform" class = "ui form" method="POST" action="https://script.google.com/macros/s/AKfycbw-bzZ2jh-hguRldI2lTo4h6wMO5KIfnypWKvkHdOn6Xfm_Xg/exec">
+        <div class="field">
+          <label><h3><b>Full Name:</b></h3></label>
+          <input type="text" name="name" placeholder="Name" required="required">
         </div>
+        <div class="field">
+          <label><h3><b>Contact No(Singapore Only):</b></h3></label>
+          <input type="number" name="phno" placeholder="Handphone Number" required="required">
+          <br><br><br>
+          <label><h4>Note: we will be using your Contact No for communication purposes!</h4></label>
+        </div>
+        <br>
+        <button class="ui animated button" type="submit">
+          <div class="visible content"><h2>Submit</h2></div>
+          <div class="hidden content"><i class="check icon"></i></div>
+        </button>
       </form>
       <div style="display:none;" id="thankyou_message">
         <h2>Thanks! We will update you soon.</h2>
