@@ -47,6 +47,16 @@ $(document)
     $('html, body').css("overflow", "visible");
   });
 
+  $('.modal .modal-content .list #2018SpeakersNav').on('click', function () {
+    $('html, body').animate({
+        scrollTop: $("#2018SpeakerSection").offset().top - 140
+    }, 300);
+    // $('.modal').css("display", "none");
+      $('.modal').css("opacity", "0");
+      $('.modal').css("z-index", "-1");
+      $('html, body').css("overflow", "visible");
+  });
+
   $('.modal .modal-content .list #pricing').on('click', function () {
     $('html, body').animate({
         scrollTop: $(".pricing-section.segment").offset().top - 90
@@ -69,7 +79,7 @@ $(document)
 
   $('.modal .modal-content .list #agenda').on('click', function () {
     $('html, body').animate({
-      scrollTop: $(".agenda-section.segment").offset().top - 100
+      scrollTop: $("#2018SpeakerSection").offset().top - 100
     }, 300);
     // $('.modal').css("display", "none");
     $('.modal').css("opacity", "0");
@@ -117,6 +127,12 @@ $(document)
   $('.main.menu .container #speakers').on('click', function () {
     $('html, body').animate({
       scrollTop: $(".speakers-section.segment").offset().top - 110
+    }, 300);
+  });
+
+  $('.main.menu .container #2018speakersNav').on('click', function () {
+    $('html, body').animate({
+        scrollTop: $("#2018SpeakerSection").offset().top - 110
     }, 300);
   });
 
