@@ -183,7 +183,7 @@ $(document)
     $.post($(this).attr('action'), $(this).serialize(), function (response) {
 
     }, 'json');
-      alert('Thanks! We will get back to you soon.');
+      alert('Thanks! We will update you soon.');
       $input.val('').removeAttr('checked').removeAttr('selected');
       location.reload(true);
       return false;
